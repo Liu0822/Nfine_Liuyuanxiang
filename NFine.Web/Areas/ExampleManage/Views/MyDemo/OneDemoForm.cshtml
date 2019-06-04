@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "OneDemoForm";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<script>
+    var keyValue = $.request("keyValue");
+    $(function () { initControl();})
+
+    function Tree() {
+        $.ajax({
+            url: '/ExampleManage/MyDemo/TreeJson',
+            type: 'post',
+            dataType: 'json',
+            success: function (e) {
+                var Tree = e.TreeJson;
+                for (var i = 0; i < Tree.length; i++) {
+                    $("#TreeId").append("<option value='" + Tree[i].id + "'>" + Tree[i].text + "</option>");
+                }
+            }
+        })
+    }
+    function initControl() {
+        $("#ParentId").bindSelect({
+            url: "/ExampleManage/MyDemo/GetTreeSelectJson",
+        });
+    }
+
+    //新增树  取页面上的值， ParentID和Code两个字段值   Id自增
+    function submitForm() {
+        if (!$('#form1').formValid()) {
+            return false;
+        }
+        $.submitForm({
+            url: "/ExampleManage/MyDemo/InsertTree?keyValue=" + keyValue,
+            param: $("#form1").formSerialize(),
+            success: function () {
+                $.currentWindow().$("#gridList").resetSelection();
+                $.currentWindow().$("#gridList").trigger("reloadGrid");
+            }
+        })
+    }
+</script>
+<form id="form1">
+    <div class="mail-box">
+        <div class="mail-body">
+            <table class="form">
+                <tr>
+                    <th class="formTitle">父级</th>
+                    <td class="formValue">
+                        <select class="form-control" id="ParentId" name="Name">                           
+                            <option disabled="disabled">--请选择--</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">子级</th>
+                    <td class="formValue">
+                     <input  type="text" class="form-control" id="Code"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</form>

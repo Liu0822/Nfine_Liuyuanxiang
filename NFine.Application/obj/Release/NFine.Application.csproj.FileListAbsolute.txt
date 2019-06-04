@@ -1,0 +1,68 @@
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Application.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Application.pdb
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\Newtonsoft.Json.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Code.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Data.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Domain.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Repository.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\log4net.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NPOI.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\EntityFramework.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Code.pdb
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Data.pdb
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Domain.pdb
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NFine.Repository.pdb
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\Newtonsoft.Json.xml
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\log4net.xml
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\NPOI.xml
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\bin\Release\EntityFramework.xml
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\obj\Release\NFine.Application.csprojResolveAssemblyReference.cache
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\obj\Release\NFine.Application.dll
+D:\工作区域\JNFine快速开发平台\NFine快速开发平台\代码\NFine.Framework\NFine.Application\obj\Release\NFine.Application.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Application.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Application.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\Newtonsoft.Json.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Code.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Data.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Domain.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Repository.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\log4net.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NPOI.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\EntityFramework.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Code.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Data.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Domain.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Repository.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\Newtonsoft.Json.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\log4net.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\NPOI.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\bin\Release\EntityFramework.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\obj\Release\NFine.Application.csprojResolveAssemblyReference.cache
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\obj\Release\NFine.Application.csproj.CoreCompileInputs.cache
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\obj\Release\NFine.Application.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Application\obj\Release\NFine.Application.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Application.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Application.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\Newtonsoft.Json.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Code.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Data.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Domain.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Repository.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\log4net.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NPOI.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\EntityFramework.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Code.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Data.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Domain.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NFine.Repository.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\Newtonsoft.Json.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\log4net.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\NPOI.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\bin\Release\EntityFramework.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\obj\Release\NFine.Application.csprojResolveAssemblyReference.cache
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\obj\Release\NFine.Application.csproj.CoreCompileInputs.cache
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\obj\Release\NFine.Application.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Application\obj\Release\NFine.Application.pdb

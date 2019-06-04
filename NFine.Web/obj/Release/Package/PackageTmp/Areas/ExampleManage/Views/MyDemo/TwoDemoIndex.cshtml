@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "我的公告";
+    Layout = "~/Views/Shared/_Index.cshtml";
+}
+<script>
+    $(function () {
+        gridList();
+    })
+    //列表
+    function gridList() {
+        var $gridList = $("#gridList");
+        $gridList.dataGrid({
+            treeGrid: true,
+            //url: '/ExampleManage/MyRecord/GetMyRecord',
+            height: $(window).height() - 96,
+            colModel: [
+                { label: "主键", name: "F_Id", hidden: true, key: true },
+                { label: '主题', name: 'Title', width: 300, align: 'left'},
+                {
+                    label: '内容', name: 'Centents', width: 100, align: 'left', formatter: function (value, row, index) {
+                        return "更多内容"
+                    }},
+            ]
+        })
+    }
+    //新增
+    function btn_add() {
+        $.modalOpen({
+            //id: 'MyRecordForm',
+            title: '新增记录',
+            url: '/ExampleManage/MyDemo/MyRecordForm',
+            width: "1000px",
+            height: "900px",
+            callBack: function (iframeId) {
+                top.frames[iframeId].submitForm();
+            }
+        })
+    }
+</script>
+<div class="topPanel">
+    <div class="toolbar">
+        <div class="btn-group">
+            <a id="NF-add" authorize="yes" class="btn btn-primary dropdown-text" onclick="btn_add()"><i class="fa fa-plus"></i>新建</a>
+        </div>
+        <div class="operate">
+            <ul class="nav nav-pills">
+                <li class="first">已选中<span>1</span>项</li>
+                <li><a id="NF-delete" authorize="yes" onclick="btn_delete()"><i class="fa fa-trash-o"></i>删除</a></li>
+                <li><a id="NF-Details" authorize="yes" onclick="btn_details()"><i class="fa fa-search-plus"></i>详情查看</a></li>
+                <li><a id="L_Edit" authorize="yes" onclick="btn_edit()"><i class="fa fa-search-plus"></i>修改</a></li>
+            </ul>
+            <a href="javascript:;" class="close"></a>
+        </div>
+    </div>
+</div>
+<div class="gridPanel">
+    <table id="gridList"></table>
+</div>

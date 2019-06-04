@@ -1,0 +1,375 @@
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.dll
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.dll
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\log4net.dll
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NPOI.dll
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.dll
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\log4net.xml
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\NPOI.xml
+D:\数据库DB\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.xml
+D:\数据库DB\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+D:\数据库DB\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+D:\数据库DB\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.dll
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.dll
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\log4net.dll
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NPOI.dll
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.dll
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\log4net.xml
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\NPOI.xml
+F:\Me\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.xml
+F:\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+F:\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+F:\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+F:\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Repository.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Code.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Data.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NFine.Domain.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\Newtonsoft.Json.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\log4net.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\NPOI.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\bin\Debug\EntityFramework.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csprojResolveAssemblyReference.cache
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.csproj.CoreCompileInputs.cache
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Repository\obj\Debug\NFine.Repository.pdb

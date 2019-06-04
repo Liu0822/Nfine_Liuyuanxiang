@@ -1,0 +1,1047 @@
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\log4net.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NPOI.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\log4net.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NPOI.xml
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\Administrator\Desktop\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\log4net.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NPOI.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\log4net.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\NPOI.xml
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\Administrator\Desktop\L项目\NFine快速开发框架\NFine快速开发框架\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\log4net.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NPOI.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\log4net.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\NPOI.xml
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\Administrator\Desktop\Me项目\project\NFine.Web\obj\Debug\NFine.Web.pdb
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Web.dll.config
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Web.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Web.pdb
+D:\数据库DB\Me项目\project\NFine.Web\bin\EntityFramework.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Application.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Code.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Domain.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Mapping.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Helpers.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Http.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Mvc.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Razor.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.WebPages.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\Newtonsoft.Json.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Data.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Repository.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\log4net.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\NPOI.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Application.pdb
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Code.pdb
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Domain.pdb
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Mapping.pdb
+D:\数据库DB\Me项目\project\NFine.Web\bin\EntityFramework.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Helpers.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Http.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Mvc.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.Razor.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.WebPages.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\Newtonsoft.Json.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Data.pdb
+D:\数据库DB\Me项目\project\NFine.Web\bin\NFine.Repository.pdb
+D:\数据库DB\Me项目\project\NFine.Web\bin\log4net.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\NPOI.xml
+D:\数据库DB\Me项目\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\数据库DB\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\数据库DB\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+D:\数据库DB\Me项目\project\NFine.Web\obj\Debug\NFine.Web.dll
+D:\数据库DB\Me项目\project\NFine.Web\obj\Debug\NFine.Web.pdb
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Mapping.dll
+F:\Me\Me项目\project\NFine.Web\bin\Newtonsoft.Json.dll
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Web.dll.config
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Web.dll
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Web.pdb
+F:\Me\Me项目\project\NFine.Web\bin\EntityFramework.dll
+F:\Me\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+F:\Me\Me项目\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Application.dll
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Code.dll
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Domain.dll
+F:\Me\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Helpers.dll
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Http.dll
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Mvc.dll
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Razor.dll
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.dll
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Data.dll
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Repository.dll
+F:\Me\Me项目\project\NFine.Web\bin\log4net.dll
+F:\Me\Me项目\project\NFine.Web\bin\NPOI.dll
+F:\Me\Me项目\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Application.pdb
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Code.pdb
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Domain.pdb
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Mapping.pdb
+F:\Me\Me项目\project\NFine.Web\bin\EntityFramework.xml
+F:\Me\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+F:\Me\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Helpers.xml
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Http.xml
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Mvc.xml
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.Razor.xml
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.xml
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+F:\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+F:\Me\Me项目\project\NFine.Web\bin\Newtonsoft.Json.xml
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Data.pdb
+F:\Me\Me项目\project\NFine.Web\bin\NFine.Repository.pdb
+F:\Me\Me项目\project\NFine.Web\bin\log4net.xml
+F:\Me\Me项目\project\NFine.Web\bin\NPOI.xml
+F:\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+F:\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+F:\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+F:\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.dll
+F:\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\log4net.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NPOI.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\log4net.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\NPOI.xml
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\Administrator\Desktop\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\log4net.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NPOI.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\log4net.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\NPOI.xml
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\DELL\Desktop\Me\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\log4net.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NPOI.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\log4net.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\NPOI.xml
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\Administrator\Desktop\Me\Me\Me\Me\Me项目\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\log4net.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NPOI.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\log4net.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\NPOI.xml
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\DELL\Desktop\Me项目\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\log4net.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NPOI.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\log4net.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\NPOI.xml
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\DELL\Desktop\Me项目\Me项目\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\log4net.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NPOI.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\log4net.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\NPOI.xml
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\Administrator\Desktop\Me项目\Me项目\Me项目\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\log4net.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NPOI.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\log4net.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NPOI.xml
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\DELL\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\log4net.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NPOI.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\log4net.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NPOI.xml
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.pdb
+C:\Users\Administrator\Desktop\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\LitJSON.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll.config
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Web.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\LitJSON.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Application.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Code.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Data.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\log4net.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NPOI.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Application.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Code.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Data.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.pdb
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\log4net.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\NPOI.xml
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.dll
+C:\Users\Administrator\Desktop\个人项目18-5-22\个人项目\个人项目\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll.config
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Web.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\EntityFramework.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\LitJSON.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Application.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Code.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Data.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\log4net.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NPOI.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Application.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Code.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Data.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\EntityFramework.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.pdb
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\log4net.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\NPOI.xml
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.dll
+F:\个人项目7-6\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll.config
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Web.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\EntityFramework.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\LitJSON.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Application.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Code.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Data.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\log4net.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NPOI.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Application.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Code.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Data.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\EntityFramework.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.pdb
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\log4net.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\NPOI.xml
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.dll
+F:\个人项目8-1\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll.config
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Web.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\EntityFramework.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\LitJSON.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Application.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Code.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Data.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\log4net.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NPOI.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Application.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Code.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Data.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\EntityFramework.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.pdb
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\log4net.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NPOI.xml
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.dll
+F:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll.config
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Web.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Web.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\EntityFramework.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\LitJSON.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Application.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Code.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Data.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\log4net.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NPOI.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\ICSharpCode.SharpZipLib.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Application.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Code.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Data.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Domain.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Mapping.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\EntityFramework.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\EntityFramework.SqlServer.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Net.Http.Formatting.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Helpers.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Http.WebHost.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Mvc.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.Razor.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Deployment.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\System.Web.WebPages.Razor.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\Newtonsoft.Json.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NFine.Repository.pdb
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\log4net.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\NPOI.xml
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.resources.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Mvc.resources.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csprojResolveAssemblyReference.cache
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.csproj.CoreCompileInputs.cache
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.dll
+E:\个人项目8-1(备份时间2018-9-20)\Me项目 (1)\project\NFine.Web\obj\Debug\NFine.Web.pdb

@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "我的公告Index";
+    Layout = "~/Views/Shared/_Index.cshtml";
+}
+<script>
+    $(function () {
+        gridList();
+    })
+    //列表
+    function gridList() {
+        var $gridList = $("#gridList");
+        $gridList.dataGrid({
+            treeGrid: true,
+            url: '/ExampleManage/MyAnnouncement/GetAnnouncement',
+            height: $(window).height() - 96,
+            colModel: [
+                { label: "主键", name: "F_Id", hidden: true, key: true },
+                {
+                    label: '类别', name: 'Category', width: 100, align: 'left', formatter: function (value,row,index) {
+                        if (value == 1) {
+                            return "<span class='label label-info'>会议通知</span>"
+                        }
+                        else if (value ==2) {
+                            return "<span class='label label-primary'>活动公告</span>"
+                        }
+                        else {
+                            return "<span class='label label-default'>其他</span>"
+                        }
+                    } },
+                { label: '主题', name: 'Title', width: 300, align: 'left' },
+                { label: '内容', name: 'Contents', width: 800, align: 'left' },           
+            ]
+        })
+    }
+    //新增操作
+    function btn_add() {
+        $.modalOpen({
+            title: '新增公告',
+            url: '/ExampleManage/MyAnnouncement/Form',
+            width: "1200px",
+            height: "650px",
+            callBack: function (iframeId) {
+                top.frames[iframeId].submitForm();
+            }
+        })
+    }
+    //删除操作
+    function btn_delete() {
+        var keyID = $("#gridList").jqGridRowValue().F_Id
+        $.deleteForm({
+            url: '/ExampleManage/MyAnnouncement/DeleteAnnouncement?DeleteKeyID=' + keyID,
+            success: function () {
+                $.currentWindow().$("#gridList").resetSelection();
+                $.currentWindow().$("#gridList").trigger("reloadGrid");
+            }
+        })
+    }
+</script>
+<div class="topPanel">
+    <div class="toolbar">
+        <div class="btn-group">
+            <a id="NF-add" authorize="yes" class="btn btn-primary dropdown-text" onclick="btn_add()"><i class="fa fa-plus"></i>新建</a>
+        </div>
+        <div class="operate">
+            <ul class="nav nav-pills">
+                <li class="first">已选中<span>1</span>项</li>
+                <li><a id="NF-delete" authorize="yes" onclick="btn_delete()"><i class="fa fa-trash-o"></i>删除</a></li>
+                @*<li><a id="NF-Details" authorize="yes" onclick="btn_details()"><i class="fa fa-search-plus"></i>详情查看</a></li>*@
+                <li><a id="L_Edit" authorize="yes" onclick="btn_edit()"><i class="fa fa-search-plus"></i>修改</a></li>
+            </ul>
+            <a href="javascript:;" class="close"></a>
+        </div>
+    </div>
+</div>
+<div class="gridPanel">
+    <table id="gridList"></table>
+</div>

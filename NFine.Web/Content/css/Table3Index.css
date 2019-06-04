@@ -1,0 +1,111 @@
+﻿.cal-tabs {
+    border-bottom: 1px solid #dfdfdf;
+    position: absolute;
+    right: 0;
+    top: -4px;
+}
+
+.calc-title {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.calc-tab.active {
+    border-bottom: 2px solid #fc6700;
+    color: #fc6700;
+    line-height: 40px;
+}
+
+.calc-tab {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.mt-15 {
+    margin-top: 15px !important;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.rel {
+    position: relative;
+}
+
+.form-control {
+    box-shadow: none;
+}
+
+.calc-addon {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+}
+
+.carl-record {
+    font-size: 14px;
+}
+
+.carl-record {
+    font-size: 14px;
+}
+
+.calc-label {
+    font-size: 14px;
+    line-height: 34px;
+    text-align: right;
+}
+
+.spanfont {
+    color: #666666;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+.spanje {
+    color: #ff6b00;
+    font-size: 24px;
+}
+
+.reset {
+    background: #666 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    outline: 0 none;
+    text-align: center;
+    width: 90px;
+}
+
+.sub {
+    background: #53a0e3 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 30px;
+    outline: 0 none;
+    text-align: center;
+    width: 90px;
+}

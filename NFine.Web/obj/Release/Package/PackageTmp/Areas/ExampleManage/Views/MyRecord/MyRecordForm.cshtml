@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "主表Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<script>
+    var keyValue = $.request("keyValue");
+    var editor = null;
+    $(function () {    
+        //Kind编辑器
+        KindEditor.ready(function (K) {
+            var options = {
+                uploadJson: '/scripts/kindeditor/asp.net/upload_json.ashx',
+                fileManagerJson: '/scripts/kindeditor/asp.net/file_manager_json.ashx',
+                allowFileManager: true
+            };
+            window.editor = K.create('#L_Centent', options);
+        });        
+
+        //获取
+        if (!!keyValue) {
+            $.ajax({
+                url: "/ExampleManage/MyRecord/GetVoidMyRecordEntity",
+                data: { keyValue: keyValue },
+                dataType: 'json',
+                success: function (data) {
+                    $("#form1").formSerialize(data);
+                    //editor.setValue(data.L_Centent);
+                }
+            })
+        }
+    })
+    //保存表单
+    function submitForm() {
+        if (!$('#form1').formValid()) {
+            return false;
+        }
+        //赋值
+        var postData = $('#form1').formSerialize();     
+        postData["L_Centent"] = editor.html();
+        $.submitForm({
+            url: '/ExampleManage/MyRecord/SetRecord?keyValue=' + keyValue,        
+          //  param: $('#form1').formSerialize(),      
+            param: postData,
+            //回调
+            success: function () {
+                $.currentWindow().$("#gridList").resetSelection();
+                $.currentWindow().$("#gridList").trigger("reloadGrid");
+            }
+        })
+    }
+</script>
+<form id="form1">
+    <div class="mail-box">      
+        <div class="mail-body">
+            <table class="form">
+                <tr>
+                    <th class="formTitle">主题</th>
+                    <td class="formValue">
+                        <input id="L_Title" name="L_Title" type="text" class="form-control required" />
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">内容</th>
+                    <td class="formValue">
+                        <div class="mail-body" style="padding: 0px;">
+                            <input  id="L_Centent" name="L_Centent" class="form-control" rows="5"  style="height:500px;"/>
+                        </div>
+                    </td>
+                </tr>     
+            </table>
+        </div>       
+    </div>
+</form>

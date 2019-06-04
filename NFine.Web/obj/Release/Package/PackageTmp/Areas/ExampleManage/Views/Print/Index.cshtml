@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "清单";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<script>
+    //新增
+    function btn_add() {
+        $.modalOpen({
+            id: 'PrintForm',
+            title: '清单',
+            url: '/ExampleManage/Print/PrintForm',
+            width: "1000px",
+            height: "900px",
+            callBack: function (iframeId) {
+                top.frames[iframeId].submitForm();
+            }
+        })
+    }
+</script>
+<div class="btn-group">
+    <a id="NF-add" authorize="yes" class="btn btn-primary dropdown-text" onclick="btn_add()"><i class="fa fa-plus"></i>新建</a>
+</div>

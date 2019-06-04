@@ -1,0 +1,154 @@
+﻿@{
+    ViewBag.Title = "上传图片，并查看图片";
+    Layout = "~/Views/Shared/_Index.cshtml";
+}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /*蓝色按钮,绝对定位*/
+    .blueButton {
+        position: absolute;
+        display: block;
+        width: 200px; /*按钮宽*/
+        height: 40px;
+        background-color: #808080; /*按钮背景色*/
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font: normal normal normal 16px/40px 'Microsoft YaHei';
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+        .blueButton:hover {
+            text-decoration: none;
+        }
+    /*自定义上传,位置大小都和a完全一样,而且完全透明*/
+    .myFileUpload {
+        position: absolute;
+        display: block;
+        width: 200px; /*点击触发区域按钮宽*/
+        height: 40px;
+        opacity: 0;
+    }
+    /*显示上传文件夹名的Div*/
+    .show {
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        height: 30px;
+        font: normal normal normal 14px/30px 'Microsoft YaHei';
+    }
+
+    .layui-progress {
+        width: 500px;
+    }
+
+    /*鼠标移入移出叉叉样式*/
+    .imgDiv {
+        display: inline-block;
+        position: relative;
+    }
+
+        .imgDiv .delete {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            width: 50px;
+            height: 50px;
+            /*display: none;*/
+        }
+</style>
+<script>
+    var keyValue = '@NFine.Code.OperatorProvider.Provider.GetCurrent().UserId';
+    $(function () {
+        Structure();
+    })
+    //编辑
+    //function GetStructure() {
+    //    $.ajax({
+    //        url: "/ExampleManage/UploadFile/GetFile",
+    //        data: { keyValue: keyValue },
+    //        success: function (data) {
+    //            for (var i = 0; i < data.length; i++) {
+    //                $("#fileCenter").append("<span><a target=\"_blank\"  href='" + data[i].L_FilePath.replace('~', "") + "'><img src='" + data[i].L_FilePath.replace('~', "") + "' alt=''style='width:300px;height:250px;' /></a></span>&nbsp;&nbsp;&nbsp;");
+    //            }
+    //        }
+    //    })
+    //}
+
+
+    //删除图片
+    function deleteBtn() {
+        $(".divCon").find(".imgDiv").remove();
+        alert("删除成功");
+    }
+
+    //鼠标移入移出事件
+    //function init() {
+    //    //鼠标移入显示删除按钮
+    //    $(".imgDiv").mouseenter(function () {
+    //        $(this).find(".delete").show();
+    //    });
+    //    //鼠标移出隐藏删除按钮
+    //    $(".imgDiv").mouseleave(function () {
+    //        $(this).find(".delete").hide();
+    //    });
+    //}
+
+
+    //上传图片展示
+  function Structure() {
+        $("#Filedata").change(function () {
+            StructureChange();
+        })
+    }
+   //上传文件方法
+    function StructureChange() {
+        $.ajaxFileUpload({
+            url: "/ExampleManage/UploadFile/UploadFileData",
+            secureuri: false,
+            fileElementId: 'Filedata',
+            dataType: 'json',
+            success: function (data) {
+                console.log(data.data[0].L_FilePath);
+                var html = "";
+                for (var i = 0; i < data.data.length; i++) {
+                    var img = data.data[i].L_FilePath;
+                    console.log(img);
+                    html += "<div class='imgDiv'>";
+                    html += "<a target=\'_blank\' href='" + img.replace("~", "") + "'><img src='" + img.replace("~", "") + "' style=\"width:300px; height:300px;\" class=\"picture\" /></a>";
+                    html += "<a href='#' id='deleteBtn' onclick=\"deleteBtn()\"><img src='/Content/img/Fork.png' style='width: 20px; height: 20px;' class='delete'/></a>";
+                    html += "</div>";
+                    html += "&nbsp;&nbsp;&nbsp;&nbsp;";
+                    $(".divCon").append(html);
+                }
+                layer.msg('上传文件成功');
+                reloadFileUpload(); //重新加载FileUpload
+            }
+        })
+    }
+    //解决FileUpload不能连续添加图片问题，重新加载方法
+    function reloadFileUpload() {
+        $("#Filedata").unbind().change(function () {
+            StructureChange();
+        });
+    }
+
+
+
+</script>
+<a href='javascript:void(0);' class="blueButton"><i class="fa fa-cloud"></i>上传文件</a>
+<input type="file" id="Filedata" name="Filedata" class="myFileUpload" multiple="multiple" accept="image/*" />
+<br /><br /><br /><br />
+<div class="divCon">
+    @*<div class="imgDiv">
+            <a><img src="~/Content/img/Car.jpg" style="width:300px; height:300px;" class="picture" /></a>
+            <a href="#" id="deleteBtn">
+                <img src="~/Content/img/Fork.png" style="width:20px; height:20px;" class="delete" />
+            </a>
+        </div>*@
+</div>
+<br /><br /><br /><br />

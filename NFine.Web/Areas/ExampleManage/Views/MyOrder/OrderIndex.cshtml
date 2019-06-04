@@ -1,0 +1,277 @@
+﻿@{
+    ViewBag.Title = "上传文件";
+    Layout = "~/Views/Shared/_Index.cshtml";
+}
+<script>
+    var flag = 0;
+    $(function () {
+        start();
+    })
+    //变色提示效果js
+    function start() {
+        var text = document.getElementById("myDiv");
+        if (!flag) {
+            text.style.color = "red";
+            text.style.background = "#FFFFFF";
+            flag = 1;
+        } else {
+            text.style.color = "";
+            text.style.background = "";
+            flag = 0;
+        }
+        setTimeout("start()", 500);
+    }
+</script>
+<hr />
+<script>
+    var isDeltail = $.request("isDeltail");//是否详情
+    $(function () {
+        InitialPage();
+        gridList();
+    })
+    //加载列表
+    function gridList() {
+        var $gridList = $("#gridList");
+        $gridList.dataGrid({
+            treeGrid: true,
+            url: "/ExampleManage/MyOrder/GetFormCountJson",
+            height: $(window).height() - 300,
+            colModel: [
+                { label: "主键", name: "F_Id", hidden: true, key: true },
+                { label: '文件名', name: 'L_FileName', width: 350, align: 'left', hidden: true },
+                {
+                    label: '上传文件名', width: 350, align: 'left', formatter: function (cellvalue, options, rowObject) {
+                        if (rowObject.L_FileType == "pdf" || rowObject.L_FileType == 'jpg' || rowObject.L_FileType == 'png' || rowObject.L_FileType == "txt" || rowObject.L_FileType == "jpeg") {
+                            return "<div style='cursor:pointer;'><div style='float: left;'><img src='/Content/img/" + rowObject.L_FileType + ".png' style='width:35px;height:35px;padding:5px;margin-left:-7px;margin-right:5px;' /></div><div><a style='float: left;line-height:35px;'  target='blank'   href='" + rowObject.L_FilePath + "'  >" + rowObject.L_FileName + "</a></div></div>";
+                        }
+                        else {
+                            //return "<div style='cursor:pointer;'><div style='float: left;'><img src='/Content/img/" + rowObject.L_FileType + ".png' style='width:35px;height:35px;padding:5px;margin-left:-7px;margin-right:5px;' /></div><div><a style='float: left;line-height:35px;'   href='" + rowObject.L_FilePath.substring(1, rowObject.L_FilePath.length) + "'  >" + rowObject.L_FileName + "</a></div></div>";
+                            return "<div style='cursor:pointer;'><div style='float: left;'><img src='/Content/img/" + rowObject.L_FileType + ".png' style='width:35px;height:35px;padding:5px;margin-left:-7px;margin-right:5px;' /></div><div><a style='float: left;line-height:35px;'>" + rowObject.L_FileName + "</a></div></div>";
+                        }                                           
+                    }
+                },
+                {
+                    label: '文件大小', name: 'L_FileSize', width: 100, align: 'left', formatter: function (cellvalue, options, rowObject) {
+                        //    1024B = 1K  ， 1024K = 1M
+                        if (cellvalue > 1048576) {
+                            return parseFloat(cellvalue / 1024 / 1024).toFixed(2) + "M";   //保留两位小数
+                        }
+                        else if (cellvalue > 1024) {
+                            return parseFloat(cellvalue / 1024).toFixed(3) + "KB";   //保留三位小数
+                        }
+                        else {
+                            return cellvalue + "B"
+                        }
+                    }
+                },
+                { label: '文件路径', name: 'L_FilePath', width: 450, align: 'left' },
+                { label: '文件后缀', name: 'L_FileType', width: 80, align: 'left' },
+                {
+                    label: '上传时间', name: 'F_CreatorTime', width: 80, align: 'left',
+                    formatter: "date", formatoptions: { srcformat: 'Y-m-d ', newformat: 'Y-m-d' } //格式化时间 Y-m-d H:i:s
+                },
+                {
+                    label: '操作', width: 80, align: 'left', formatter: function (cellvalue, options, rowObject) {
+                        if (rowObject.L_FileType == "pdf" || rowObject.L_FileType == 'jpg' || rowObject.L_FileType == 'png' || rowObject.L_FileType == "txt" || rowObject.L_FileType == "jpeg") {
+                            return "不可下载";
+                        }
+                        else {
+                            return "<div style='cursor:pointer;'><div style='float: left;'></div><div><a style='color:#1c73dd; float: left;line-height:35px;'   href='" + rowObject.L_FilePath + "'  >下载</a></div></div>";
+                        }
+                    }
+                },
+            ]
+        });
+    }
+    // 初始化页面
+    function InitialPage() {
+        //if (isDeltail == "true") {
+        //    layer.msg('使用isDeltail暂时区分成两个页面，后期填对应内容');
+        //}
+
+        //上传功能
+        $('#Filedata').change(function () {
+            var f = document.getElementById('Filedata').files[0]
+            var src = window.URL.createObjectURL(f);
+            $.ajaxFileUpload({
+                url: "/ExampleManage/MyOrder/UploadFile",
+                secureuri: false,
+                fileElementId: 'Filedata', //文件上传域的ID
+                dataType: 'json',
+                success: function (data) {
+                    console.log(data);
+                    //if (data != null) {
+                    //    layer.msg('请稍等，文件上传中...', function () {  //不等于null时提示此内容
+                    //        var a = data.data;  //定义变量data
+                    //        $("#fileCenter").empty(); //移除 fileCenter元素的内容
+                    //        var html = "";
+                    //        for (var i = 0; i < a.length; i++) {
+                    //            html += "<div><b>" + a[i].L_FileName + "</b>" + '&nbsp; <span style="color: #40c331;">上传成功</span>&nbsp;<a onclick=\'BtnDelete("' + a[i].F_Id + '","' + a[i].L_FileName + '",this)\'; style = \'cursor:pointer;color:#FF3030;\' >&nbsp;移除</a >' + "<br /><br /></div >";
+                    //        }
+                    //        $("#fileCenter").append(html);
+                    //        // setTimeout("location.reload();", 1000); //延迟1秒刷新加载
+                    //        layer.msg('上传文件成功');
+                    //        //进度条
+                    //        layui.use('element', function () {
+                    //            var element = layui.element;
+                    //        });
+                    //    })
+                    //}
+                    if (data != null) {
+                            var a = data.data;  //定义变量data
+                            $("#fileCenter").empty(); //移除 fileCenter元素的内容
+                            var html = "";
+                            for (var i = 0; i < a.length; i++) {
+                                html += "<div><b>" + a[i].L_FileName + "</b>" + '&nbsp; <span style="color: #40c331;">上传成功</span>&nbsp;<a onclick=\'BtnDelete("' + a[i].F_Id + '","' + a[i].L_FileName + '",this)\'; style = \'cursor:pointer;color:#FF3030;\' >&nbsp;移除</a >' + "<br /><br /></div >";
+                            }
+                            $("#fileCenter").append(html);
+                            // setTimeout("location.reload();", 1000); //延迟1秒刷新加载
+                            //alert('上传文件成功');
+                            layer.msg('上传文件成功');
+                            //进度条
+                            layui.use('element', function () {
+                                var element = layui.element;
+                            });
+                    }
+                    else {
+                        //layer.msg('上传文件失败', { icon: 5 });
+                        alert('上传文件失败');
+                    }
+                }
+            })
+        });
+    }
+    //上传文件后移除功能
+    function BtnDelete(F_Id, L_FileName) {
+        var param = "?keyValue=" + F_Id;
+        param += "&FileName=" + L_FileName;
+        $.ajax({
+            url: "/ExampleManage/MyOrder/DeleteFile?" + param,
+            type: 'post',
+            dataType: 'json',
+            success: function (data) {
+                console.log(data);
+                if (true) {
+                    $(File).parent().remove();//移除元素
+                }
+                else {
+                    alert("移除失败")
+                }
+            }
+        })
+    }
+    //删除附件
+    function btn_delete() {
+        var a = $("#gridList").jqGridRowValue().F_Id   //选中获取一行数据的id
+        if (a == undefined) {
+            layer.msg('请选择一行数据再操作', { icon: 5 });
+            return false;
+        }
+        $.deleteForm({
+            url: "/ExampleManage/MyOrder/DeleteForm",
+            param: { keyValue: $("#gridList").jqGridRowValue().F_Id },
+            success: function (data) {
+                // $.currentWindow().$("#gridList").resetSelection();
+                // $.currentWindow().$("#gridList").trigger("reloadGrid");
+            }
+        })
+    }
+
+
+    //集合导出
+    $(function () {
+        $("#lr-export").click(function () {
+            $(".gridPanel").table2excel({
+                exclude: ".noExl",
+                name: "Excel Document Name",
+                filename: "文件管理",
+                exclude_img: true,
+                exclude_links: true,
+                exclude_inputs: true
+            });
+        });
+    });
+
+</script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /*蓝色按钮,绝对定位*/
+    .blueButton {
+        position: absolute;
+        display: block;
+        width: 130px;
+        height: 40px;
+        background-color: #ffffff; /*按钮背景色*/
+        color: #000000;
+        border: 1px solid #000000; /*边框*/
+        text-decoration: none;
+        text-align: center;
+        font: normal normal normal 16px/40px 'Microsoft YaHei';
+        cursor: pointer;
+        border-radius: 4px;
+        margin-left: 15px;
+    }
+
+        .blueButton:hover {
+            text-decoration: none;
+        }
+    /*自定义上传,位置大小都和a完全一样,而且完全透明*/
+    .myFileUpload {
+        position: absolute;
+        display: block;
+        width: 100px;
+        height: 40px;
+        opacity: 0;
+    }
+    /*显示上传文件夹名的Div*/
+    .show {
+        position: absolute;
+        top: 40px;
+        width: 100%;
+        height: 30px;
+        font: normal normal normal 14px/30px 'Microsoft YaHei';
+    }
+
+    .layui-progress {
+        width: 500px;
+    }
+
+    input[type="file"] {
+        color: transparent;
+    }
+</style>
+@*上传文件按钮*@
+<span id="tab" style="margin-left:15px; margin-top:10px;">
+    <i class="fa fa-volume-up"></i>&nbsp;<span id="myDiv">&nbsp;#上传文件格式参考  .xlsx，.jpg，.txt，.doc，.docx</span>
+</span>
+<br />
+<br />
+<a href='javascript:void(0);' class="blueButton"><i class="fa fa-cloud"></i>上传文件</a>
+<input type="file" id="Filedata" name="Filedata" class="myFileUpload" multiple="multiple" />
+<br />
+<br />
+<br />
+@*显示文件名上传*@
+<span id="fileCenter"></span>
+<br />
+<br />
+<hr />
+@*文件列表按钮*@
+<div class="titlePanel">
+    <div class="toolbar">
+        <div class="btn-group">
+            <a id="lr-replace" class="btn btn-default" onclick="$.reload()"><i class="fa fa-refresh"></i>&nbsp;刷新</a>
+            @*<a id="lr-add" class="btn btn-default" onclick="btn_add()"><i class="fa fa-plus"></i>&nbsp;新增</a>*@
+            @*<a id="lr-edit" class="btn btn-default" onclick="btn_edit()"><i class="fa fa-pencil-square-o"></i>&nbsp;编辑</a>*@
+            <a id="lr-delete" class="btn btn-default" onclick="btn_delete()"><i class="fa fa-trash-o"></i>&nbsp;删除</a>
+            @*<a id="lr-export" class="btn btn-default"><i class="fa fa-sign-out"></i>&nbsp;导出</a>*@
+        </div>
+    </div>
+</div>
+<div class="gridPanel">
+    <table id="gridList"></table>
+</div>
+<br /><br />

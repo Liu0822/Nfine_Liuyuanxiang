@@ -1,0 +1,746 @@
+﻿
+<!DOCTYPE html>
+@*<meta http-equiv="refresh" content="5;url=http://www.baidu.com">*@
+<html style="overflow: hidden;">
+<head>
+    @*
+        <title>当前有新消息注意查收</title>*@
+    <title>L</title>
+    <link href="~/Content/css/framework-font.css" rel="stylesheet" />
+    <script src="~/Content/js/jquery/jquery-2.1.1.min.js"></script>
+    <script src="~/Content/js/bootstrap/bootstrap.js"></script>
+    <link href="~/Content/js/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Content/js/dialog/dialog.js"></script>
+    <script src="~/Content/js/cookie/jquery.cookie.js"></script>
+    <link href="~/Content/css/framework-theme.css" rel="stylesheet" />
+    <script src="~/Content/js/framework-ui.js"></script>
+    <script src="~/Content/js/framework-clientdata.js"></script>
+    <script src="~/Content/js/ajaxfileupload.js"></script>
+
+    <script>
+
+        //当前登录用户=keyValue
+        /**/
+        var keyValue = '@NFine.Code.OperatorProvider.Provider.GetCurrent().UserId';
+        /**/
+        var isDeltail = $.request("isDeltail");//是否详情
+        $(function () {
+            tab();
+            InitialPage();
+            //页面加载初始化   - 用户头像
+            $.ajax({
+                url: "/SystemManage/User/GetFormJson",
+                data: { keyValue: keyValue },
+                dataType: "json",
+                success: function (data) {
+                    if (data != null) {
+                        $("#layout").formSerialize(data);
+                        if (data.F_HeadIcon) {
+                            // document.getElementById('uploadPreview').src = data.F_HeadIcon;  //页面加载显示头像
+                            document.getElementById('uploadPreview1').src = data.F_HeadIcon; //页面加载显示头像1
+                        }
+                    }
+                }
+            })
+
+            //解锁功能👇
+            var sliderel = {
+                $: function (selector) {
+                    return document.getElementById(selector)
+                },
+                getEvent: function (e) {
+
+                    var e = e || window.event
+                    return e;
+                },
+                stopBubble: function (e) {
+                    var e = this.getEvent(e)
+                    if (typeof e.preventDefault != "undefined") {
+                        e.preventDefault();
+                    } else {
+                        e.returnValue = false;
+                    }
+                }
+            },
+                Elemt = {
+                    flag: false,
+                    nowMoseX: 0,
+                    mx: sliderel.$("slider-box"),
+                    sd: sliderel.$("slider"),
+                    st: sliderel.$("slider-text"),
+                    sb: sliderel.$("slider-bg"),
+                    se: sliderel.$("slider-Emerge"),
+                    sg: sliderel.$("stop-go"),
+                }
+            Elemt.sd.onmousedown = function (e) {
+                var e = sliderel.getEvent(e)
+                sliderel.stopBubble(e);
+                Elemt.flag = true
+                nowMoseX = e.clientX - Elemt.sd.offsetLeft;
+            }
+            //滑块最大移动的距离
+            maxMove = Elemt.mx.offsetWidth - Elemt.sd.offsetWidth;
+            //鼠标移动的时候是否成功
+            Elemt.mx.onmousemove = function (e) {
+                var e = sliderel.getEvent(e)
+                if (Elemt.flag) {
+                    var moveX = e.clientX - nowMoseX;
+                    var oElemLeft = Elemt.sd.offsetLeft;//判断滑块移动的范围
+                    if (oElemLeft < 0) { //判断滑块是否超出限制位置
+                        moveX = 0;
+                        Elemt.flag = false
+                    } else if (oElemLeft > maxMove) {
+                        moveX = maxMove;
+                        Elemt.sg.style.display = "block";
+                        Elemt.sd.style.display = "none"
+                        Elemt.sb.style.width = 300 + "px"
+                        Elemt.st.innerHTML = "已安全退出系统"
+                        Elemt.st.style.color = "#fff"
+                        window.setTimeout("window.location='/Login/Index'", 500);   //延迟0.5秒跳转
+                    }
+                }
+                Elemt.sd.style.left = moveX + "px"
+                Elemt.sb.style.width = oElemLeft + 20 + "px";
+            }
+            //当鼠抬起判断是否滑动成功
+            Elemt.mx.onmouseup = function (e) {
+                var e = sliderel.getEvent(e)
+                Elemt.flag = false
+                if (Elemt.sd.offsetLeft < maxMove) {
+                    speed = Math.ceil(Elemt.sd.offsetLeft / 40);
+                    time = setInterval(function () {
+                        if (Elemt.sd.offsetLeft >= 0) {
+                            Elemt.sd.style.left = Elemt.sd.offsetLeft - speed + "px";
+                            Elemt.sb.style.width = Elemt.sb.offsetWidth - speed + "px";
+                        } else {
+                            clearInterval(time);
+                            return false;
+                        }
+                    }, 10)
+                }
+            }
+            //当鼠离开是否滑动成功
+            Elemt.sd.onmouseout = function (e) {
+                sliderel.stopBubble(e);
+                Elemt.flag = false;
+                if (Elemt.sd.offsetLeft < maxMove) {
+                    speed = Math.ceil(Elemt.sd.offsetLeft / 40);
+                    time = setInterval(function () {
+                        if (Elemt.sd.offsetLeft >= 0) {
+                            Elemt.sd.style.left = Elemt.sd.offsetLeft - speed + "px";
+                            Elemt.sb.style.width = Elemt.sb.offsetWidth - speed + "px";
+                        } else {
+                            clearInterval(time);
+                            return false;
+                        }
+                    }, 10);
+                }
+            }
+            //解锁功能👆
+
+        })
+
+        //赋值上传头像
+        function InitialPage() {
+            $('#uploadFile').change(function () {
+                var f = document.getElementById('uploadFile').files[0]
+                var src = window.URL.createObjectURL(f);
+                //    document.getElementById('uploadPreview').src = src; //上传头像
+                document.getElementById('uploadPreview1').src = src; //上传头像1
+                $.ajaxFileUpload({
+                    url: "/SystemManage/User/UploadFile",
+                    secureuri: false,
+                    fileElementId: 'uploadFile',
+                    dataType: 'json',
+                    success: function (data) {
+                        layer.msg('头像上传成功');
+                    }
+                })
+            });
+        }
+        //邮件总数
+        $(function () {
+            $.ajax({
+                url: '/ExampleManage/NewNumber/GetEntityNum',
+                success: function (data) {
+                    var num = JSON.parse(data);
+                    if (num != null) {
+                        $("#EmilNumder").html(num.NewNumber);
+                    }
+                }
+            })
+        })
+        //邮件消息拼接
+        function tab() {
+            $.ajax({
+                url: "/ExampleManage/SendMessages/GetSqlTable",
+                dataType: 'json',
+                success: function (data) {
+                    $("#tab").html("");
+                    for (var i = 0; i < data.length; i++) {
+                        var html = "<li class='header'>&nbsp;&nbsp;<b>最新邮件</b></li>";
+                        html += "<li>";
+                        html += "<ul class='menu'>";
+                        html += "<li>";
+                        html += "<h4>&nbsp;&nbsp;" + data[i].L_Title + "</h4>";
+                        html += "<br/>";
+                        html += "<small class=\"pull-right\"><i class=\"fa fa-clock-o\"></i>" + data[i].CreateUserTime + "&nbsp;</small>";
+                        html += "</li>";
+                        html += "</ul>";
+                        html += "</li >";
+                        html += "  <li class='footer'><a onclick='Emailok(this)' name= '" + data[i].F_Id + "' style='cursor:pointer' >查看</a></li>";
+                        html += "<br/>";
+                        $("#tab").append(html);
+                    }
+                }
+            })
+        }
+        //查看更多邮件消息
+        function Emailok(keyValue) {
+            var F_Id = $(keyValue).attr("name");
+            $.modalOpen({
+                id: 'Details',
+                title: '更多邮件消息详情',
+                url: "/ExampleManage/SendMessages/Details?keyValue=" + F_Id + "&isDeltail=true",
+                width: '1100px',
+                height: '800px',
+                btn: null,
+            })
+        }
+        //图标模态查看
+        function makeBtn() {
+            $.modalOpen({
+                id: "Form",
+                title: "图标查看",
+                url: "/Home/IconForm",
+                width: "1500px",
+                height: "800px",
+                btn: null,
+                callBack: function () {
+
+                }
+            });
+        }
+        //快捷计算器模态查看
+        function makeBtn1() {
+            $.modalOpen({
+                id: "Form",
+                title: "计算器查看",
+                url: "/Home/CalculatorForm",
+                width: "1000px",
+                height: "800px",
+                btn: null,
+                callBack: function () {
+
+                }
+            });
+        }
+        //二维码生成模态查看
+        function makeBtn2() {
+            $.modalOpen({
+                id: "Form",
+                title: "二维码生成",
+                url: "/Home/QRCodeForm",
+                width: "1000px",
+                height: "800px",
+                btn: null,
+                callBack: function () {
+                }
+            });
+        }
+        //文件管理
+        function makeBtn3() {
+            $.modalOpen({
+                id: "Form",
+                title: "文件管理",
+                url: "/ExampleManage/MyOrder/OrderIndex?isDeltail=true",
+                width: "1400px",
+                height: "600px",
+                btn: null,
+                callBack: function () {
+                }
+            });
+        }
+        //日历
+        function makeBtn4() {
+            $.modalOpen({
+                id: "Form",
+                title: "日历",
+                url: "/ExampleManage/UploadFile/Test4",
+                width: "1400px",
+                height: "600px",
+                btn: null,
+                callBack: function () {
+                }
+            })
+        }
+
+        //退出操作
+        function OutLogin() {
+            $.modalConfirm("是否退出该系统？成功后将退出到登陆页面", function (r) {
+                if (r) {
+                    self.location = '/Login/OutLogin';//确认退出
+                }
+                else {
+                    layer.msg('您取消了退出登录操作');
+                }
+            })
+        }
+
+
+
+        var html = "<div class='wrapper' id='detailsinfo'>" +
+            "<div class='detailsdiv'>" +
+            "<br/>" +
+            "<p>&nbsp;&nbsp;<span><i class='fa fa-tags'></i></span>&nbsp;&nbsp;" + '今天明天小雨转阵雨，' + "&nbsp;&nbsp;<i class='fa fa-search-minus' style='cursor:pointer;'></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-minus' style='cursor:pointer;'></i></p>" +
+            "<p>&nbsp;&nbsp;<span><i class='fa fa-tags'></i></span>&nbsp;&nbsp;" + '您在2018-06-25 16:24:48登录了系统，目前还处于登录状态中...' + "&nbsp;&nbsp;<i class='fa fa-search-minus' style='cursor:pointer;'></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-minus' style='cursor:pointer;'></i></p>" +
+            "<p>&nbsp;&nbsp;<span><i class='fa fa-tags'></i></span>&nbsp;&nbsp;" + '您在2018-06-26有一个零时会议，系统提前5分钟以短信邮件通知您' + "&nbsp;&nbsp;<i class='fa fa-search-minus' style='cursor:pointer;'></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-minus' style='cursor:pointer;'></i></p>" +
+            "<p>&nbsp;&nbsp;<span><i class='fa fa-tags'></i></span>&nbsp;&nbsp;" + '[News] BootStrap 组件 列表组 | 基于实例代码分步讲解 一站式学习Java' + "&nbsp;&nbsp;<i class='fa fa-search-minus' style='cursor:pointer;'></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class='fa fa-minus' style='cursor:pointer;'></i></p>" +
+            "</div></div>";
+        function Btn11() {
+            //自定页
+            layer.open({
+                type: 1,
+                skin: 'layui-layer-demo', //样式类名
+                closeBtn: 1, //不显示关闭按钮
+                anim: 2,
+                shadeClose: true, //开启遮罩关闭
+                content: html,
+                area: ['500px', '300px'], //宽高
+            });
+        }
+
+        function Btn() {
+            //自定页
+            layer.open({
+                type: 1,
+                skin: 'layui-layer-demo', //样式类名
+                closeBtn: 0, //不显示关闭按钮   1显示
+                anim: 2,
+                shadeClose: true, //开启遮罩关闭
+                content: "<div class='wrapper' id='detailsinfo'>" +
+                "<div class='detailsdiv'>" +
+                "<br/>" +
+                "<p>&nbsp;&nbsp;<span><i class='fa fa-tags'></i></span>&nbsp;&nbsp;" + '头像上传功能开发中...' + "&nbsp;&nbsp;</p>" +
+                "</div></div>",
+                area: ['300px', '100px'], //宽高
+            });
+        }
+
+
+
+
+    </script>
+    <style type="text/css">
+        #panel {
+            padding: 100px;
+            display: none;
+            background-color: #1ABC9C;
+            width: 300px;
+            height: 300px;
+        }
+
+        /*.dropdown-menu {
+            width: 400px;
+        }*/
+        #tab {
+            width: 400px;
+        }
+
+        .navbar-nav > .messages-menu > .dropdown-menu > li.footer > a {
+            -webkit-border-top-left-radius: 0px;
+            -webkit-border-top-right-radius: 0px;
+            -webkit-border-bottom-right-radius: 4px;
+            -webkit-border-bottom-left-radius: 4px;
+            -moz-border-radius-topleft: 0px;
+            -moz-border-radius-topright: 0px;
+            -moz-border-radius-bottomright: 4px;
+            -moz-border-radius-bottomleft: 4px;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+            font-size: 12px;
+            background-color: #f4f4f4;
+            padding: 7px 10px;
+            border-bottom: 1px solid #eeeeee;
+            color: #444444;
+            text-align: center;
+        }
+
+        .navbar-nav > .messages-menu > .dropdown-menu > li .menu {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            overflow-x: hidden;
+            text-align: center;
+        }
+
+
+        /*上侧背景，左侧背景，*/
+        .clearfix {
+            background-color: #444444;
+        }
+
+        .row {
+            background-color: #444444;
+        }
+
+        #sidebar-nav {
+            background-color: #444444;
+        }
+
+        .container {
+            background-color: #444444;
+        }
+        /*上传插件和图片合并显示样式*/
+        .file {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            text-decoration: none;
+            text-indent: 0;
+            cursor: pointer !important;
+        }
+
+            .file input {
+                position: absolute;
+                font-size: 100px;
+                right: 0;
+                top: 0;
+                opacity: 0;
+                cursor: pointer !important;
+            }
+
+            .file:hover {
+                text-decoration: none;
+                cursor: pointer !important;
+            }
+        /*👆*/
+
+
+
+
+
+
+
+
+
+        /*解锁功能CSS  👇*/
+        #slider-box {
+            width: 300px;
+            height: 50px;
+            border-radius: 4px;
+            background: #ccc;
+            position: relative;
+            margin-top: px;
+        }
+
+        #slider {
+            width: 48px;
+            height: 48px;
+            border: 1px solid #eee;
+            text-align: center;
+            line-height: 48px;
+            display: inline-block;
+            background: #fff;
+            border-radius: 4px;
+            cursor: move;
+            position: absolute;
+            left: 0;
+            z-index: 5;
+        }
+
+        #slider-text {
+            text-align: center;
+            line-height: 50px;
+            display: inline-block;
+            width: 100%;
+            height: 50px;
+            font-family: "微软雅黑";
+            position: absolute;
+            left: 0;
+            z-index: 4;
+        }
+
+        #slider-bg {
+            width: 0;
+            height: 48px;
+            background: green;
+            position: absolute;
+            z-index: 3;
+            border-radius: 4px;
+        }
+
+        #slider-Emerge {
+            width: 100px;
+            /*background:;*/
+            height: 50px;
+            position: absolute;
+        }
+
+        #stop-go {
+            width: 48px;
+            height: 48px;
+            border: 1px solid #eee;
+            background: #fff;
+            position: absolute;
+            right: -1px;
+            display: none;
+            text-align: center;
+            line-height: 48px;
+            color: #000;
+            font-family: "微软雅黑";
+            border-radius: 4px;
+            z-index: 5;
+        }
+
+        div {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+        /*解锁功能👆*/
+    </style>
+</head>
+<body style="overflow: hidden;">
+    <div id="ajax-loader" style="cursor: progress; position: fixed; top: -50%; left: -50%; width: 200%; height: 200%; background: #fff; z-index: 10000; overflow: hidden;">
+        <img src="~/Content/img/loading1.gif" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto;" /><!--控制页面加载的动画-->
+    </div>
+    <div id="theme-wrapper">
+        <header class="navbar" id="header-navbar">
+            <div class="container" style="padding-right: 0px;">
+                <a href="#" id="logo" class="navbar-brand">
+                    <!--头像-->
+                    <div class="file" style="width: 40px; height: 40px;">
+                        <img id="uploadPreview1" style="width: 40px; height: 40px; border-radius: 50px;" src="~/Content/img/admin.png" />
+                        <input type="file" name="uploadFile" id="uploadFile">
+                    </div>
+                </a>
+                <div class="clearfix">
+                    <div class="nav-no-collapse navbar-left pull-left hidden-sm hidden-xs">
+                        <ul class="nav navbar-nav pull-left">
+                            <li>
+                                <a class="btn" id="make-small-nav"><i class="fa fa-arrows-h"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:history.go(-1)" title="此操作与浏览器左上角退后功能一致"><b><i class="fa fa-mail-reply-all"></i></b></a>
+                            </li>
+                            <!--天气-->
+                            <li>
+                                <div class="weather" pc style="margin-top:12px;">
+                                    <div id="tp-weather-widget"></div>
+                                    <script>(function (T, h, i, n, k, P, a, g, e) { g = function () { P = h.createElement(i); a = h.getElementsByTagName(i)[0]; P.src = k; P.charset = "utf-8"; P.async = 1; a.parentNode.insertBefore(P, a) }; T["ThinkPageWeatherWidgetObject"] = n; T[n] || (T[n] = function () { (T[n].q = T[n].q || []).push(arguments) }); T[n].l = +new Date(); if (T.attachEvent) { T.attachEvent("onload", g) } else { T.addEventListener("load", g, false) } }(window, document, "script", "tpwidget", "//widget.seniverse.com/widget/chameleon.js"))</script>
+                                    <script>
+                                        tpwidget("init", {
+                                            "flavor": "slim",
+                                            "location": "WX4FBXXFKE4F",
+                                            "geolocation": "enabled",
+                                            "language": "zh-chs",
+                                            "unit": "c",
+                                            "theme": "chameleon",
+                                            "container": "tp-weather-widget",
+                                            "bubble": "disabled",
+                                            "alarmType": "badge",
+                                            "color": "#FFFFFF",
+                                            "uid": "U9EC08A15F",
+                                            "hash": "039da28f5581f4bcb5c799fb4cdfb673"
+                                        });
+                                        tpwidget("show");
+                                    </script>
+                                </div>
+                            </li>
+                            <!--最新邮件-->
+                            <li class="dropdown messages-menu" id="messages-menu">
+                                <!--<a class="btn dropdown-toggle" data-toggle="dropdown" onclick="Btn_Emil">-->
+                                <a class="btn dropdown-toggle" data-toggle="dropdown" title="邮箱功能">
+                                    <div id="flip"><i class="fa fa-bell"></i></div>
+                                    <table id="panel"></table>
+                                    <span class="count" id="EmilNumder">0</span>
+                                </a>
+                                <ul class="dropdown-menu" id="tab">
+                                    <!-- <li class='header'>&nbsp;&nbsp;<b>最新邮件</b></li>
+                                    <li>
+                                        <ul class='menu'>
+                                            <li>
+                                                <h4>&nbsp;&nbsp;标题</h4>
+                                                <p>内容</p>
+                                                <small class='pull-right'><i class="fa fa-clock-o"></i>时间</small>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class='footer'><a href='#'>更多</a></li>-->
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown profile-dropdown">
+                                <a href="#" class="dropdown" data-toggle="dropdown">
+                                    <i class="fa fa-navicon"></i>
+                                </a>
+                                <ul class="dropdown-menu pull-right">
+                                    <li>
+                                        <a class="btn" id="makeBtn" onclick="makeBtn()" title="图标查看" style="font-size:10px;"><b>图标查看 | <i class="fa fa-gear"></i></b></a>
+                                    </li>
+                                    <li>
+                                        <a class="btn" id="makeBtn1" onclick="makeBtn1()" title="计算器"><b>计算器 | <i class="fa fa-building"></i></b></a>
+                                    </li>
+                                    <li>
+                                        <a class="btn" id="makeBtn2" onclick="makeBtn2()" title="二维码"><b>二维码 | <i class="fa fa-qrcode"></i></b></a>
+                                    </li>
+                                    <li>
+                                        <a class="btn" id="makeBtn2" onclick="makeBtn3()" title="文件管理"><b>文件管理 | <i class="fa fa-file-text"></i></b></a>
+                                    </li>
+                                    <li>
+                                        <a class="btn" id="makeBtn2" onclick="makeBtn4()" title="日历"><b>日历 | <i class="fa fa-calendar"></i></b></a>
+                                    </li>
+                                    <li>
+                                        <a href="http://sighttp.qq.com/msgrd?v=1&uin=67083465" target="_blank"><b>联系我们 | <i class="fa fa-qq"></i></b></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown messages-menu" id="messages-menu">
+                                <a class="btn dropdown-toggle" data-toggle="dropdown" id="makeBtn" title="演示按钮" onclick="Btn11()">
+                                    <div id="flip"><i class="fa fa-envelope-o"></i></div>
+                                    <table id="panel"></table>
+                                    <span class="count" id="makeBtn">4</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-no-collapse pull-right" id="header-nav">
+                        <!--<ul class="nav navbar-nav pull-right">
+                            <li class="dropdown profile-dropdown">
+                                <a href="#" class="dropdown" data-toggle="dropdown">
+                                    <input type="button" value="安全退出" onclick="OutLogin()" style="width:80px; border:1px solid #1ABC9C; background-color:#808080; opacity: 0.5;" />
+                                </a>
+                            </li>
+                        </ul>-->
+                        <div id="slider-box">
+                            <span id="slider">👉</span> <!--按住滑动-->
+                            <span id="slider-text"><b>(欢迎您! @NFine.Code.OperatorProvider.Provider.GetCurrent().UserName)  向右滑动退出 </b></span>  <!--滑动中间文字-->
+                            <span id="slider-bg"></span>  <!--滑动后面的背景-->
+                            <span id="slider-Emerge"></span>
+                            <span id="stop-go"><i class="fa fa-check"></i></span>  <!--滑动成功后展示-->
+                        </div>
+                    </div>
+                    <!-- <div class="nav-no-collapse pull-right" id="header-nav">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown profile-dropdown">
+                                <a href="#" class="dropdown" data-toggle="dropdown">
+                                    <img src="" alt="" id="uploadPreview1" /><i class="fa fa-user"></i>
+                                    <span class="hidden-xs">@NFine.Code.OperatorProvider.Provider.GetCurrent().UserCode</span>
+                                </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a class="menuItem" data-id="userInfo" href="/SystemManage/User/Info"><i class="fa fa-user"></i>个人信息</a></li>
+                                <li><a href="javascript:void();"><i class="fa fa-inbox"></i>我的信箱</a></li>
+                                <li><a href="javascript:void();" onclick="layer.msg('浏览器缓存清除成功');"><i class="fa fa-trash-o"></i>清空缓存</a></li>
+                                <li><a href="javascript:void();"><i class="fa fa-paint-brush"></i>皮肤设置</a></li>
+                                <li class="divider"></li>
+                                <li><a href="~/Login/OutLogin"><i class="ace-icon fa fa-power-off"></i>安全退出</a></li>
+                            </ul>
+                          </li>
+                       </ul>
+                    </div>-->
+                </div>
+            </div>
+        </header>
+        <div id="page-wrapper" class="container">
+            <div class="row">
+                <div id="nav-col">
+                    <section id="col-left" class="col-left-nano">
+                        <div id="col-left-inner" class="col-left-nano-content">
+                            <br /><br />
+                            <!--左侧菜单-->
+                            <div class="collapse navbar-collapse navbar-ex1-collapse" id="sidebar-nav">
+                                <ul class="nav nav-pills nav-stacked"></ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div id="content-wrapper">
+                    <div class="content-tabs">
+                        <button class="roll-nav roll-left tabLeft">
+                            <i class="fa fa-backward"></i>
+                        </button>
+                        <nav class="page-tabs menuTabs">
+                            <div class="page-tabs-content" style="margin-left: 0px;">
+                                <a href="javascript:;" class="menuTab active" data-id="/Home/Default">首页</a>
+                            </div>
+                        </nav>
+                        <button class="roll-nav roll-right tabRight">
+                            <i class="fa fa-forward" style="margin-left: 3px;"></i>
+                        </button>
+                        <div class="btn-group roll-nav roll-right">
+                            <button class="dropdown tabClose" data-toggle="dropdown">
+                                页签操作<i class="fa fa-caret-down" style="padding-left: 3px;"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                                <li><a class="tabReload" href="javascript:void();">刷新当前</a></li>
+                                <li><a class="tabCloseCurrent" href="javascript:void();">关闭当前</a></li>
+                                <li><a class="tabCloseAll" href="javascript:void();">全部关闭</a></li>
+                                <li><a class="tabCloseOther" href="javascript:void();">除此之外全部关闭</a></li>
+                            </ul>
+                        </div>
+                        <button class="roll-nav roll-right fullscreen"><i class="fa fa-arrows-alt"></i></button>
+                    </div>
+                    <div class="content-iframe" style="background-color: #f9f9f9; overflow: hidden;">
+                        <div class="mainContent" id="content-main" style="margin: 10px; margin-bottom: 0px; padding: 0;">
+                            <iframe class="NFine_iframe" width="100%" height="100%" src="/Home/Default" frameborder="0" data-id="/Home/Default"></iframe>
+                            <iframe class="NFine_iframe" width="100%" height="100%" src="/Home/About" frameborder="0" data-id="/Home/About"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="loadingPage" style="display: none;">
+        <div class="loading-shade"></div>
+        <div class="loading-content" onclick="$.loading(false)">数据加载中，请稍后…</div>
+    </div>
+    <script src="~/Content/js/index.js"></script>
+    <script src="~/Content/js/indextab.js"></script>
+    <script src="~/Content/js/loading/pace.min.js"></script>
+</body>
+</html>
+<script>
+                                                                                //$("#BTn").click(function () {
+                                                                                //    //document.location = "http://www.baidu.com";
+                                                                                //    document.location = "/Home/About";
+                                                                                //})
+</script>
+<style>
+    #user-left-box {
+        text-align: center;
+        /*background-color:#3f9849;*/
+    }
+    /*#user-left-box img {
+        width: 100px;
+        height: 100px;
+    }*/
+
+
+    /*头像样式*/
+    .file {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        text-decoration: none;
+        text-indent: 0;
+        cursor: pointer !important;
+    }
+
+        .file input {
+            position: absolute;
+            font-size: 100px;
+            right: 0;
+            top: 0;
+            opacity: 0;
+            cursor: pointer !important;
+        }
+
+        .file:hover {
+            text-decoration: none;
+            cursor: pointer !important;
+        }
+</style>

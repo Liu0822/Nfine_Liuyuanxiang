@@ -1,0 +1,117 @@
+﻿@{
+    ViewBag.Title = "从表Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<link href="~/Content/js/layer/layui/css/layui.css" rel="stylesheet" />
+<script src="~/Content/js/layer/layui/layui.js"></script>
+<script>
+    var keyValue = $.request("keyValue");
+    var editor = null;
+    $(function () {
+        //Kind编辑器
+        KindEditor.ready(function (K) {
+            var options = {
+                uploadJson: '/scripts/kindeditor/asp.net/upload_json.ashx',
+                fileManagerJson: '/scripts/kindeditor/asp.net/file_manager_json.ashx',
+                allowFileManager: true
+            };
+            window.editor = K.create('#L_Centent', options);
+        });        
+
+
+        select();
+        initControl(); 
+    });
+    //change事件，获取下拉数据赋值文本框
+    function initControl() {
+        $("#MyRecordID").change(function () {
+            var a = $(this).val();
+            $.ajax({
+                //url: "/ExampleManage/SendMessages/GetFormJson?keyValue=" + a,
+                url: "/ExampleManage/MyRecord/GetVoidMyRecordEntity?keyValue=" + a,
+                type: 'get',
+                success: function (data) {
+                    var a = JSON.parse(data);
+                    console.log(a);
+                        $("#L_Centent").val(a.L_Centent);
+                }
+            })
+        })
+    }
+   // var editor = null;
+    //获取实体表单
+    //$(function () {
+    //    if (!!keyValue) {
+    //        $.ajax({
+    //            url: "/ExampleManage/SendMessages/GetFormJson",
+    //            data: { keyValue: keyValue },
+    //            dataType: "json",
+    //            async: false,
+    //            success: function (data) {
+    //                $("#form1").formSerialize(data);
+    //            }
+    //        });
+    //    }
+    //});  
+    //下拉获取数据
+    function select() {
+            $.ajax({
+                url: "/ClientsData/GetProjInfoData",
+                type: 'post',
+                dataType: 'json',
+                success: function (data) {
+                    var data = data.DataSource;
+                    for (var i = 0; i < data.length; i++) {
+                        $("#MyRecordID").append("<option value='" + data[i].id + "'>" + data[i].value + "</option>");
+                    }
+                }
+            })
+        }
+            //新增保存
+            function submitForm() {
+                //验证文本框
+                if (!$('#form1').formValid()) {
+                    return false;
+                }
+                $.submitForm({
+                    url: "/ExampleManage/SendMessages/InsertNotice?keyValue=" + keyValue,
+                    param: $("#form1").formSerialize(),
+                    success: function () {
+                        $.currentWindow().$("#gridList").resetSelection();
+                        $.currentWindow().$("#gridList").trigger("reloadGrid");
+                    }
+                })
+            }
+</script>
+<form id="form1">
+    <div class="mail-box">
+        <div class="mail-body">
+            <table class="form">
+                <tr>
+                    <th class="formTitle">L_MyRecordID</th>
+                    <td class="formValue">
+                        <select class="form-control" id="MyRecordID" name="cRoleName">
+                            <option>--请选择--</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">输入框</th>
+                    <td class="formValue">
+                        <div class="mail-body" style="padding: 0px;">
+                            <input id="L_Title" name="L_Title" type="text" class="form-control required" />
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="formTitle">文本域</th>
+                    <td class="formValue">
+                        <div class="mail-body" style="padding: 0px;">
+                            <textarea id="L_Centent" name="L_Centent" class="form-control" rows="5" style="height:500px;"></textarea>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</form>

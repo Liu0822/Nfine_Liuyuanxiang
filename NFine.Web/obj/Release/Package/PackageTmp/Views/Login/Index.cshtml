@@ -1,0 +1,282 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L</title>
+    <link rel="shortcut icon" href="~/favicon.ico">
+
+    <link href="~/Content/css/component.css" rel="stylesheet" /> @*登录特效*@
+    <link href="~/Content/css/framework-font.css" rel="stylesheet" />
+    <link href="~/Content/css/framework-login.css" rel="stylesheet" />
+    <script src="~/Content/js/jquery/jquery-2.1.1.min.js"></script>
+    <script src="~/Content/js/cookie/jquery.cookie.js"></script>
+    <script src="~/Content/js/md5/jquery.md5.js"></script>
+
+    <link href="~/Content/js/layer/layer.css" rel="stylesheet" />
+    <script src="~/Content/js/layer/layer.js"></script>
+    <script>
+        var flag = 0;
+        var keyValue = $.request("keyValue");
+        $(function () {
+            start();
+        })
+        //变色提示效果
+        function start() {
+            var text = document.getElementById("myDiv");
+            if (!flag) {
+                text.style.color = "red";
+                // text.style.background = "#FFFFFF";
+                flag = 1;
+            } else {
+                text.style.color = "";
+                text.style.background = "";
+                flag = 0;
+            }
+            setTimeout("start()", 500);
+        }
+
+        //注册请求按钮
+        function ok() {
+            var oData = {};
+            // var a = $("#txt_ok").val();
+            oData["F_Account"] = $("#txt_ok").val();
+            oData["F_UserPassword"] = $("#txt_pwd").val();
+            $.ajax({
+                url: "/SystemManage/User/SubmitForm?keyValue=" + keyValue,
+                param: oData,
+                success: function (data) {
+                    console.log(data)
+                }
+            })
+        }
+
+        //查看历史消息弹框
+        function Btn() {
+            var a = "游客您好！试用帐号 L   默认密码0";
+            var b = "...";
+            var c = "";
+            //自定页
+            layer.open({
+                type: 1,
+                skin: 'layui-layer-demo', //样式类名
+                closeBtn: 0, //不显示关闭按钮   1显示
+                anim: 2,
+                shadeClose: true, //开启遮罩关闭
+                //title: '版本更新时间：2018-06-26',
+                title: '<span id="show"></span>',
+                content: "<div class='wrapper' id='detailsinfo'>" +
+                "<div class='detailsdiv'>" +
+                "<br/>" +
+                "<p>&nbsp;&nbsp;&nbsp;&nbsp;" + '公告：' + "&nbsp;&nbsp;</p>" +
+                "<br/>" +
+                "<p>&nbsp;&nbsp;<span><i class='fa fa-tags'></i></span>&nbsp;&nbsp;" + a + "&nbsp;&nbsp;</p>" +
+                "<p>&nbsp;&nbsp;<span><i class='fa fa-tags'></i></span>&nbsp;&nbsp;" + b + "&nbsp;&nbsp;</p>" +
+                "<p>&nbsp;&nbsp;<span><i class='fa fa-tags'></i></span>&nbsp;&nbsp;" + c + "&nbsp;&nbsp;</p>" +
+                "</div></div>",
+                area: ['500px', '200px'], //宽高
+            });
+        }
+        //注册弹窗
+        function Btn_Register() {
+            layer.open({
+                type: 1,
+                skin: 'layui-layer-demo', //样式类名
+                closeBtn: 1, //不显示关闭按钮   1显示
+                anim: 2,
+                shadeClose: true, //开启遮罩关闭
+                title: '注册窗口',
+                content: '<span class="input input--hoshi">' +
+                '<span>帐号</span>' +
+                '<input class="input__field input__field--hoshi" type="text" id="txt_ok" />' +
+                '<label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-4"></label>' +
+                '</span>' +
+                '<span class="input input--hoshi">' +
+                '<span>密码</span>' +
+                '<input class="input__field input__field--hoshi" type="text" id="txt_pwd"/>' +
+                '<label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-4"></label>' +
+                '</span>' +
+                '<span class="input input--hoshi">' +
+                '<span>Ip</span>' +
+                '<input class="input__field input__field--hoshi" type="text" id="txt_ip"/>' +
+                '<label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-4">' +
+                '</label>' +
+                '</span>' +
+                '<div class="row1" style:"margin: 0 auto;">' +
+                '<button id="login_button1" type="button" style="width:500px; color:#808080; height:50px;" onclick="ok()"><span>Sign in<i class="fa fa-arrow-circle-right"></i></span></button>' +
+                '</div>',
+                area: ['500px', '500px'], //宽高
+            });
+        }
+
+    </script>
+    <style>
+        body {
+            /*background-image: url('../../Content/img/Btc.jpg');*/
+            /*background-color:#808080;*/
+        }
+        /*div阴影效果*/
+        /*#form {
+            width: 400px;
+            -webkit-box-shadow: 20px 20px 20px black;
+            -moz-box-shadow: 20px 20px 20px black;
+        }*/
+        #login_button {
+            height: 40px;
+            background-color: #40cf92;
+        }
+
+        #Enregistrement_button {
+            height: 40px;
+            background-color: #16a8d0;
+        }
+
+        .form {
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+<body style="background-image:url(/Content/img/卡通logo.jpg)">
+    <!--登录页面天气接口-->
+    <div class="col-xs-12">
+        <div class="portal-panel-title">
+            @*<img src="~/Content/img/xxsd.gif" />*@
+            <marquee direction="up" scrollamount="2" style="text-align:center">&nbsp;&nbsp;<iframe width="300" scrolling="no" height="18" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=10&icon=5&site=12"></iframe></marquee>
+        </div>
+    </div>
+    <div style="position: absolute; z-index: 999; top: 20px; left: 20px; color: #fff; font-size: 13px; line-height: 22px;">
+    </div>
+    <div class="wrapper">
+        <div class="container" style="left:400px;">
+            <div class="logo">
+            </div>
+            <div class="connect">
+                <p style="color:#fff;">If we can only encounter each other rather than stay with each other,then I wish we had never encountered.</p>
+                <p id="myDiv" style="margin-top:20px;">如果只是遇见，不能停留，不如不遇见。</p>
+            </div>
+            <hr /><br />
+            <form class="form">
+                <section class="content">
+                    <span class="input input--hoshi">
+                        <i class="fa fa-user"></i>
+                        <input class="input__field input__field--hoshi" type="text" id="txt_account" value="admin" style="color:#fff;" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-4">
+                        </label>
+                    </span>
+                    <span class="input input--hoshi">
+                        <i class="fa fa-key"></i>
+                        <input class="input__field input__field--hoshi" type="password" id="txt_password" value="0000" style="color:#fff;" />
+                        <label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-4">
+                        </label>
+                    </span>
+                </section>
+                <div class="row">
+                    <button id="login_button" type="button"><span>Sign in<i class="fa fa-arrow-circle-right"></i></span></button>
+
+                </div><br />
+                <div class="row">
+                    <button id="Enregistrement_button" type="button" onclick="Btn_Register()"><span>Register<i class="fa fa-arrow-circle-right"></i></span></button>
+                </div>
+                <div class="row">
+                </div>
+                <br /><br />
+                <div id="h" style="text-align:center; color:#fff;">最新&nbsp;<span>v1.0.1</span> &nbsp;&nbsp;&nbsp;<span style="cursor:pointer; color:#000000;" onclick="Btn()">查看公告</span></div>
+            </form>
+            <div class="login_tips"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        (function ($) {
+            $.login = {
+                formMessage: function (msg) {
+                    $('.login_tips').find('.tips_msg').remove();
+                    $('.login_tips').append('<div class="tips_msg"><i class="fa fa-question-circle"></i>' + msg + '</div>');
+                },
+                loginClick: function () {
+                    var $username = $("#txt_account");
+                    var $password = $("#txt_password");
+                    //var $code = $("#txt_code");   //验证码
+                    if ($username.val() == "") {
+                        $username.focus();
+                        $.login.formMessage('请输入用户名/手机号/邮箱。');
+                        return false;
+                    } else if ($password.val() == "") {
+                        $password.focus();
+                        $.login.formMessage('请输入登录密码。');
+                        return false;
+                    }
+                    //else if ($code.val() == "") {
+                    //    $code.focus();
+                    //    $.login.formMessage('请输入验证码。');
+                    //    return false;
+                    //}
+                    else {
+                        $("#login_button").attr('disabled', 'disabled').find('span').html("loading...");
+                        $.ajax({
+                            url: "/Login/CheckLogin",
+                            //data: { username: $.trim($username.val()), password: $.md5($.trim($password.val())), code: $.trim($code.val()) },
+                            data: { username: $.trim($username.val()), password: $.md5($.trim($password.val())) },
+                            type: "post",
+                            dataType: "json",
+                            success: function (data) {
+                                if (data.state == "success") {
+                                    $("#login_button").find('span').html("登录成功，正在检查安全性并跳转...");
+                                    window.setTimeout(function () {
+                                        window.location.href = "/Home/Index";
+                                    }, 2000);
+                                } else {
+                                    $("#login_button").removeAttr('disabled').find('span').html("登录");
+                                    //   $("#switchCode").trigger("click");
+                                    //  $code.val('');
+                                    $.login.formMessage(data.message);
+                                }
+                            }
+                        });
+                    }
+                },
+                init: function () {
+                    $('.wrapper').height($(window).height());
+                    $(".container").css("margin-top", ($(window).height() - $(".container").height()) / 2 - 50);
+                    $(window).resize(function (e) {
+                        $('.wrapper').height($(window).height());
+                        $(".container").css("margin-top", ($(window).height() - $(".container").height()) / 2 - 50);
+                    });
+                    //$("#switchCode").click(function () {
+                    //    $("#imgcode").attr("src", "/Login/GetAuthCode?time=" + Math.random());
+                    //});
+                    var login_error = top.$.cookie('nfine_login_error');
+                    if (login_error != null) {
+                        switch (login_error) {
+                            case "overdue":
+                                $.login.formMessage("系统登录已超时,请重新登录");
+                                break;
+                            case "OnLine":
+                                $.login.formMessage("您的帐号已在其它地方登录,请重新登录");
+                                break;
+                            case "-1":
+                                $.login.formMessage("系统未知错误,请重新登录");
+                                break;
+                        }
+                        top.$.cookie('nfine_login_error', '', { path: "/", expires: -1 });
+                    }
+                    $("#login_button").click(function () {
+                        $.login.loginClick();
+                    });
+                    document.onkeydown = function (e) {
+                        if (!e) e = window.event;
+                        if ((e.keyCode || e.which) == 13) {
+                            document.getElementById("login_button").focus();
+                            document.getElementById("login_button").click();
+                        }
+                    }
+                }
+            };
+            $(function () {
+                $.login.init();
+            });
+        })(jQuery);
+    </script>
+</body>
+</html>

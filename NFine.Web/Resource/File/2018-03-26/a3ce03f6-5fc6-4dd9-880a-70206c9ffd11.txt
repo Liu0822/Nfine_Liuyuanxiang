@@ -1,0 +1,18 @@
+--查询重复数据记总数
+select Cu_CertificatesNo,  count(Cu_CertificatesNo) as '总' from Bi_Customs group by Cu_CertificatesNo
+
+
+--联查 -- 排序
+select CreateDate,CreateUserName,NodeName,Result,Opinion,ProcessingTime,TimeConsuming from [Proj_ProjToInstance] as a
+inner join [WF_ProcessOperationHistory] as b on a.WF_InstanceId=b.ProcessId
+where proj_id='P100'  order by CreateDate asc
+
+
+--linq
+
+from 变量名(a) in 数据源
+join 变量名(b) in 数据源
+on a里面的ID跟b里面a的ID相等
+select new{
+字段名
+}

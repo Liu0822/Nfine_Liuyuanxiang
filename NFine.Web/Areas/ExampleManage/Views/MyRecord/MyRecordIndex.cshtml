@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "主表Index'";
+    Layout = "~/Views/Shared/_Index.cshtml";
+}
+<script>
+    $(function () {
+        gridList();
+    })
+    //列表
+    function gridList() {
+        var $gridList = $("#gridList");
+        $gridList.dataGrid({
+            treeGrid: true,
+            url: '/ExampleManage/MyRecord/GetMyRecord',    
+            height: $(window).height() - 96,         
+            colModel: [
+                { label: "主键", name: "F_Id", hidden: true, key: true },
+                { label: '主题', name: 'L_Title', width: 300, align: 'left'},      
+                {
+                    label: '内容', name: 'L_Centent', width: 100, align: 'left', formatter: function (value, row, index) {
+                        return "更多内容"
+                    }},
+            ]
+        })
+    }
+    //新增
+    function btn_add() {    
+        $.modalOpen({
+            id: 'MyRecordForm',
+            title: '新增记录',
+            url: '/ExampleManage/MyRecord/MyRecordForm',
+            width: "1000px",
+            height: "900px",
+            callBack: function (iframeId) {
+                top.frames[iframeId].submitForm();
+            }
+        })
+    }
+    //删除
+    function btn_delete() {
+        var keyValue = $("#gridList").jqGridRowValue().F_Id;
+        $.deleteForm({
+            url: "/ExampleManage/MyRecord/DeleteForm",         
+            param: { keyValue: $("#gridList").jqGridRowValue().F_Id },
+            success: function () {
+                $.currentWindow().$("#gridList").resetSelection();
+                $.currentWindow().$("#gridList").trigger("reloadGrid");
+            }
+        })
+    }
+    //详情内容
+    function btn_details() {
+        var keyValue = $("#gridList").jqGridRowValue().F_Id;   
+        $.modalOpen({
+            id: 'Details',
+            title: '详情',
+            url: "/ExampleManage/MyRecord/MyRecordDateils?keyValue=" + keyValue,
+            width: '700px',
+            height: '520px',
+            btn: null,
+        })
+    }
+
+
+    //修改
+    function btn_edit() {
+        var keyValue = $("#gridList").jqGridRowValue().F_Id;
+        $.modalOpen({
+            id: "Form",
+            title: "修改",
+            url: "/ExampleManage/MyRecord/MyRecordForm?keyValue=" + keyValue,
+            width: "1000px",
+            height: "800px",
+            callBack: function (iframeId) {
+                top.frames[iframeId].submitForm();
+            }
+        })
+    }
+    //转金额格式
+    function outputmoney(number) {
+        if (isNaN(number) || number == "") return "";
+        number = Math.round(number * 100) / 100;
+        if (number < 0)
+            return '-' + outputdollars(Math.floor(Math.abs(number) - 0) + '') + outputcents(Math.abs(number) - 0);
+        else
+            return outputdollars(Math.floor(number - 0) + '') + outputcents(number - 0);
+    }
+    //格式化金额   
+    function outputdollars(number) {
+        if (number.length <= 3)
+            return (number == '' ? '0' : number);
+        else {
+            var mod = number.length % 3;
+            var output = (mod == 0 ? '' : (number.substring(0, mod)));
+            for (i = 0; i < Math.floor(number.length / 3); i++) {
+                if ((mod == 0) && (i == 0))
+                    output += number.substring(mod + 3 * i, mod + 3 * i + 3);
+                else
+                    output += ',' + number.substring(mod + 3 * i, mod + 3 * i + 3);
+            }
+            return (output);
+        }
+    }
+    function outputcents(amount) {
+        amount = Math.round(((amount) - Math.floor(amount)) * 100);
+        return (amount < 10 ? '.0' + amount : '.' + amount);
+    }  
+
+</script>
+<div class="topPanel">
+    <div class="toolbar">    
+        <div class="btn-group">
+            <a id="NF-add" authorize="yes" class="btn btn-primary dropdown-text" onclick="btn_add()"><i class="fa fa-plus"></i>新建</a>
+        </div>
+        <div class="operate">
+            <ul class="nav nav-pills">
+                <li class="first">已选中<span>1</span>项</li>           
+                <li><a id="NF-delete" authorize="yes" onclick="btn_delete()"><i class="fa fa-trash-o"></i>删除</a></li>  
+                <li><a id="NF-Details" authorize="yes" onclick="btn_details()"><i class="fa fa-search-plus"></i>详情查看</a></li>    
+                <li><a id="L_Edit" authorize="yes" onclick="btn_edit()"><i class="fa fa-search-plus"></i>修改</a></li>
+            </ul>
+            <a href="javascript:;" class="close"></a>
+        </div>
+        @*<script>$('.toolbar').authorizeButton()</script>*@
+    </div>    
+</div>
+<div class="gridPanel">
+    <table id="gridList"></table>
+</div>

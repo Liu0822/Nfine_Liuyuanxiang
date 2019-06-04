@@ -1,0 +1,170 @@
+﻿@{
+    ViewBag.Title = "从表Index";
+    Layout = "~/Views/Shared/_Index.cshtml";
+}
+
+<script src="~/Content/js/simditor/js/simditor.js"></script>
+<style>
+    .simditor {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+</style>
+<script>
+    var editor;
+    $(function () {
+        gridList();
+        editor = new Simditor({
+            textarea: $('#L_Centent'),
+            //toolbar: ['title', 'bold', 'italic', 'underline', 'strikethrough', 'color', '|', 'ol', 'ul', 'blockquote', 'code', 'table', '|', 'link', 'image', 'hr', '|', 'indent', 'outdent']
+            toolbar: ['image']
+        });
+    })
+
+    //加载列表
+    function gridList() {
+        var $gridList = $("#gridList");
+        $gridList.dataGrid({
+            treeGrid: true,
+            url: "/ExampleManage/SendMessages/GetFormTableCountJson",
+            height: $(window).height() - 96,
+            colModel: [
+                { label: "主键", name: "F_Id", hidden: true, key: true },
+                { label: '标题', name: 'L_Title', width: 350, align: 'left' },
+                { label: '内容', name: 'L_Centent', width: 350, align: 'left' },
+                {
+                    label: '状态', name: 'State', width: 100, align: 'left', formatter: function (cellvalue, options, rowObject) {
+                        if (cellvalue == 0) {
+                            return "未读";
+                        }   
+                        else if (cellvalue == 1) {
+                            return "已读";
+                        }
+                        else {
+                            return "--";
+                        }
+                    }},
+                {
+                    label: '创建时间', name: 'CreateUserTime', width: 80, align: 'left',
+                    formatter: "date", formatoptions: { srcformat: 'Y-m-d', newformat: 'Y-m-d' }
+                },
+                { label: '创建人', name: 'CreateUserName', width: 150, align: 'left' },
+            ]
+        });
+        //查询事件
+        $("#btn_search").click(function () {
+            $gridList.jqGrid('setGridParam', {
+                postData: { keyword: $("#txt_keyword").val() },
+            }).trigger('reloadGrid');
+        });
+
+    }
+    //新增测试内容
+    function btn_add() {
+        $.modalOpen({
+            id: "Form",
+            title: "新增",
+            url: "/ExampleManage/SendMessages/Form",
+            width: '1100px',
+            height: '800px',
+            callBack: function (iframeId) {
+                top.frames[iframeId].submitForm();
+            }
+        });
+    }
+    //删除测试内容
+    function btn_delete() {
+        $.deleteForm({
+            url: "/ExampleManage/SendMessages/DeleteForm",
+            param: { keyValue: $("#gridList").jqGridRowValue().F_Id },
+            success: function () {
+                $.currentWindow().$("#gridList").resetSelection();
+                $.currentWindow().$("#gridList").trigger("reloadGrid");
+            }
+        })
+    }
+    //修改测试内容
+    function btn_edit() {
+        var keyValue = $("#gridList").jqGridRowValue().F_Id;
+        $.modalOpen({
+            id: "Form",
+            title: "修改",
+            url: "/ExampleManage/SendMessages/Form?keyValue=" + keyValue,
+            width: '1100px',
+            height: '800px',
+            callBack: function (iframeId) {
+                top.frames[iframeId].submitForm();
+            }
+        })
+    }
+    //详情测试内容
+    function btn_details() {
+        var keyValue = $("#gridList").jqGridRowValue().F_Id;
+        $.modalOpen({
+            id: 'Details',
+            title: '列表详情',
+            url: "/ExampleManage/SendMessages/Details?keyValue=" + keyValue,
+            width: '1100px',
+            height: '800px',
+            btn: null,
+        })
+    }
+    //更改状态
+    function btn_State() {
+        var keyValue = $("#gridList").jqGridRowValue().F_Id;
+        var keyState = $("#gridList").jqGridRowValue().State; //状态
+        if (keyState == "已读") {
+            //layer.msg('状态是已读，无需更改！');
+            return;
+        }
+        $.deleteForm({
+            url: "/ExampleManage/SendMessages/ChangeState",
+            param: { keyValue: keyValue},
+            prompt: "注：是否设置这条数据为已读状态，成功后无法更改状态？",
+            loading: "正在执行数据...",
+            success: function (data) {
+                $.currentWindow().$("#gridList").resetSelection();
+                $.currentWindow().$("#gridList").trigger("reloadGrid");
+            }
+        })
+    }
+</script>
+<div class="topPanel">
+    <div class="toolbar">
+        <div class="btn-group">
+            <a class="btn btn-primary" onclick="$.reload()"><span class="glyphicon glyphicon-refresh"></span></a>
+        </div>
+        <div class="btn-group">
+            <a id="NF-add" authorize="yes" class="btn btn-primary dropdown-text" onclick="btn_add()"><i class="fa fa-plus"></i>新建</a>
+        </div>
+        <div class="operate">
+            <ul class="nav nav-pills">
+                <li class="first">已选中<span>1</span>项</li>
+                <li><a id="NF-State" authorize="yes" onclick="btn_State()"><i class="fa fa-pencil-square-o"></i>已读</a></li>
+                <li><a id="NF-edit" authorize="yes" onclick="btn_edit()"><i class="fa fa-pencil-square-o"></i>修改</a></li>
+                <li><a id="NF-delete" authorize="yes" onclick="btn_delete()"><i class="fa fa-trash-o"></i>删除</a></li>
+                <li><a id="NF-Details" authorize="yes" onclick="btn_details()"><i class="fa fa-search-plus"></i>查看</a></li>
+            </ul>
+            <a href="javascript:;" class="close"></a>
+        </div>
+        @*<script>$('.toolbar').authorizeButton()</script>*@
+    </div>
+    <div class="search">
+        <table>
+            <tr>
+                <td>
+                    <div class="input-group">
+                        <input id="txt_keyword" type="text" class="form-control" placeholder="请输入'标题'关键字" style="width: 200px;">
+                        <span class="input-group-btn">
+                            <button id="btn_search" type="button" class="btn  btn-primary"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="gridPanel">
+    <table id="gridList"></table>
+</div>

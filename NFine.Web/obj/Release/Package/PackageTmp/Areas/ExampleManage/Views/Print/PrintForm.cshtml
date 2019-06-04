@@ -1,0 +1,114 @@
+﻿@{
+    ViewBag.Title = "PrintForm";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<script src="~/Content/js/jqprint/jquery.jqprint-0.3.js"></script>
+<link media="print" href="~/Content/js/jqprint/jquery.jqprint.css" rel="stylesheet" />
+<script>
+    $(function () {
+        top.$(".content-iframe").css("background-color", "#f9f9f9");
+    })
+    function btn_print() {
+        $("#print").jqprint();
+    }
+    //保存表单
+    function submitForm() {
+        if (!$('#form1').formValid()) {
+            return false;
+        }
+        //赋值
+        var postData = $('#form1').formSerialize(); //
+        $.submitForm({
+            url: '/ExampleManage/Print/SaveForm',
+            param: $('#form1').formSerialize(),
+            //回调
+            success: function () {
+                //$.currentWindow().$("#gridList").resetSelection();
+                //$.currentWindow().$("#gridList").trigger("reloadGrid");
+            }
+        })
+    }
+</script>
+<div style="position: absolute; top: 22px; right: 8px;">
+    <input type="button" id="btn_ok" class="btn btn-primary" value=" 直接保存 " style="width:100px;" />
+    <a class="btn btn-default " onclick="btn_print()"><i class="fa fa-print" style="margin-right: 5px; font-size: 13px;"></i>直接打印</a>
+</div>
+<form  id="form1">
+    <div class="price-box">
+        <div id="print">
+            <div class="price-title">
+            </div>
+            <div class="price-subtitle">
+                <p>
+                    <input id="" type="text" class="form-control" style="text-align:center;" value="" />
+                </p>
+            </div>
+            <div class="price-title">
+                &nbsp;&nbsp;清&nbsp;&nbsp;单
+            </div>
+            <div class="price-info">
+                <table class="form">
+                    <tr>
+                        <th class="formTitle">公&nbsp;&nbsp;&nbsp;&nbsp;司：</th>
+                        <td class="formValue" style="padding-right: 20px;">
+                            <input id="Company" type="text" class="form-control  required"/>
+                        </td>
+                        <th class="formTitle">联系人：</th>
+                        <td class="formValue">
+                            <input id="Contacts" type="text" class="form-control"/>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <th class="formTitle">电&nbsp;&nbsp;&nbsp;&nbsp;话：</th>
+                        <td class="formValue" style="padding-right: 20px;">
+                            <input id="Phone" type="text" class="form-control " />
+                        </td>
+                        <th class="formTitle">传&nbsp;&nbsp;&nbsp;&nbsp;真：</th>
+                        <td class="formValue">
+                            <input id="Fax" type="text" class="form-control " />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="formTitle">邮&nbsp;&nbsp;&nbsp;&nbsp;箱：</th>
+                        <td class="formValue" style="padding-right: 20px;">
+                            <input id="Email" type="text" class="form-control" />
+                        </td>
+                        <th class="formTitle">地&nbsp;&nbsp;&nbsp;&nbsp;址：</th>
+                        <td class="formValue">
+                            <input id="Address" type="text" class="form-control " />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="formTitle">报价人：</th>
+                        <td class="formValue" style="padding-right: 20px;">
+                            <input id="Bidder" type="text" class="form-control " value="" />
+                        </td>
+                        <th class="formTitle">日&nbsp;&nbsp;&nbsp;&nbsp;期：</th>
+                        <td class="formValue">
+                            <input id="Date" type="text" class="form-control " value="@NFine.Code.Ext.ToDateString()" disabled="disabled" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="formTitle">备&nbsp;&nbsp;&nbsp;&nbsp;注：</th>
+                        <td class="formValue">
+                            <input id="Remarks" type="text" class="form-control" style="width:700px;" value=" 深圳大道7888号" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="price-info">
+                <table class="form">
+                    <tr>
+                        <th class="formTitle">签&nbsp;&nbsp;&nbsp;&nbsp;字：</th>
+                        <td class="formValue">
+                            <input id="Sign" type="text" class="form-control" style="width: 150px" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="sign ok" style="height: 150px; width: 150px; top: 89px; left: 724px;position:absolute;">
+                @*<img src="/Content/js/zsign/signet.gif" draggable="false">*@
+            </div>
+        </div>
+    </div>
+</form>

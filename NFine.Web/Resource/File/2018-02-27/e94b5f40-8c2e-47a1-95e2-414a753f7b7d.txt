@@ -1,0 +1,16 @@
+新建空白解决方案，添加如下项目：
+（1）DDD.Domain类库项目。
+（2）DDD.Application类库项目。
+（3）DDD.Infrastructure类库项目。
+（4）DDD.UI.MVC ASP.NET 空项目，选中MVC引用。
+（5）DDD.Repository类库项目。
+
+
+
+
+
+
+（1）DDD.UI.MVC添加DDD.Application、DDD.Domain、DDD.Infrastructure和DDD.Repository的引用。
+（2）向DDD.Application添加DDD.Domain、DDD.Infrastructure引用。
+（3）向DDD.Domain添加DDD.Infrastructure引用。
+（4）向Repository项目添加DDD.Domain和DDD.Infrastructure引用。

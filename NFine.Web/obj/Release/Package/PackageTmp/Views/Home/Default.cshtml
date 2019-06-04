@@ -1,0 +1,232 @@
+﻿@{
+    Layout = "主页";
+    Layout = "~/Views/Shared/_Index.cshtml";
+}
+<!DOCTYPE html>
+<title>桌面主页</title>
+<link href="~/Content/js/bootstrap/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/js/homejs/Index.css" rel="stylesheet" />
+<script>
+    $(function () {
+        tab(); //SendMessages表[滚动消息]
+        tab1(); //SendMessages表
+        tab2();//MyRecord表
+        tab3();//OrderIndex表
+       // tab4();//Log表
+    })
+    //SendMessages-查看详情
+    function Btn1(keyValue) {
+        var F_Id = $(keyValue).attr("name");
+        $.modalOpen({
+            id: 'Details',
+            title: '首页列表详情',
+            url: "/ExampleManage/SendMessages/Details?keyValue=" + F_Id,
+            width: '1200px',
+            height: '800px',
+            btn: null,
+        })
+    }
+    //MyRecord表数据-查看详情
+    function Btn2(keyValue) {
+        var F_Id = $(keyValue).attr("name");
+        $.modalOpen({
+            id: 'Details',
+            title: '详情',
+            url: "/ExampleManage/MyRecord/MyRecordDateils?keyValue=" + F_Id,
+            width: '1200px',
+            height: '1000px',
+            btn: null,
+        })
+    }
+    //SendMessages表数据
+    function tab1() {
+        $.ajax({
+            url: "/ExampleManage/SendMessages/GetFormTableJson",
+            dataType: 'json',
+            success: function (data) {
+                if (data != "") {
+                    $("#tab1").html("");
+                    for (var i = 0; i < data.length; i++) {
+                        var html = "<div id='tab1' class='lr-msg-line'><a onclick='Btn1(this)'  style='cursor:pointer; text-decoration: none; color:#4884b8' name='" + data[i].F_Id + "'><span class='label label-success'>待办</span>&nbsp;&nbsp;&nbsp;" + data[i].L_Title + "</a><label>" + data[i].CreateUserTime + "</label></div>"
+                        $("#tab1").append(html);
+                    }
+                }
+                else {
+                    var html = '<div style="text-align:center; padding-top:90px;font-size:20px; color: #808080;">暂无内容</div>'
+                    $("#tab1").append(html);  
+                }
+            }
+        })
+    }
+    //MyRecord表数据
+    function tab2() {
+        $.ajax({
+            url: '/ExampleManage/MyRecord/GetMyRecord',
+            dataType: 'json',
+            success: function (data) {
+                if (data != "") {
+                    $("tab2").html("");
+                    for (var i = 0; i < data.length; i++) {
+                        var html = "<div id='tab2' class='lr-msg-line'><a onclick='Btn2(this)'  style='cursor:pointer; text-decoration: none; color:#4884b8' name='" + data[i].F_Id + "'><span class='label label-info'>公告</span>&nbsp;&nbsp;&nbsp;" + data[i].L_Title + "</a><label>" + data[i].CreateUserTime + "</label></div>"
+                        $("#tab2").append(html);
+                    }
+                }
+                else {
+                    var html = '<div style="text-align:center; padding-top:90px;font-size:20px; color: #808080;">暂无内容</div>'
+                    $("#tab2").append(html);  
+                }
+            }
+        })
+    }
+    //OrderIndex表数据
+    function tab3() {
+        $.ajax({
+            url: "/ExampleManage/MyOrder/GetFormJson",
+            dataType: 'json',
+            success: function (data) {
+                if (data != "") {
+                    $("tab3").html("");
+                    for (var i = 0; i < data.length; i++) {
+                        var html = "<div id='tab3' class='lr-msg-line'><a onclick='Btn3(this)'  style='cursor:pointer; text-decoration: none; color:#4884b8' name='" + data[i].F_Id + "'><span class='label label-warning'>附件</span>&nbsp;&nbsp;&nbsp;" + data[i].L_FileName + "</a><label>" + data[i].F_CreatorTime + "</label></div>"
+                        $("#tab3").append(html);
+                    }
+                }
+                else {
+                    var html = '<div style="text-align:center; padding-top:90px;font-size:20px; color: #808080;">暂无内容</div>'
+                    $("#tab3").append(html);  
+                }
+            }
+        })
+    }
+    //Log表
+    function tab4() {
+        $.ajax({
+            url: "/SystemSecurity/Log/GetGridJsonData",
+            dataType: 'json',
+            success: function (data) {
+                $("tab4").html("");
+                for (var i = 0; i < data.length; i++) {
+                    //var html = "<marquee direction=left><label style='color: #000000;'><span class='label label-success'>" + data[i].F_Description + "！</span>&nbsp;&nbsp; 欢迎您，" + data[i].F_NickName + "！，Ip登录地址：" + data[i].F_IPAddress + "，时间: " + data[i].F_Date + "</label></marquee>"
+                    var html = "<span class='label label-success'>" + data[i].F_Description + "</span>";
+                    html += "<p></p>";
+                    html += "<p>当前登录设备基本信息：</p>";              
+                    html += "<p>主机名：" + data[i].F_Account + "</p>";
+                    html += "<p>操作系统：" + data[i].F_Type + "</p>";
+                    html += "<p>Ip地址：" + data[i].F_IPAddress + "</p>";                 
+                    html += "<p>浏览器：" + data[i].F_ModuleName + "</p>";
+                    html += "<p>登录者：" + data[i].F_NickName + "</p>";
+                    html += "<p>登录时间：" + data[i].F_Date + "</p>";                   
+                    $("#tab4").append(html);
+                }
+            }
+        })
+    }
+    //最新消息 [滚动提示]
+    function tab() {
+        $.ajax({
+           // url: "/ExampleManage/SendMessages/GetNumJson",
+            url: "/ExampleManage/MyAnnouncement/GetAnnouncementCount",
+            dataType: 'json',
+            success: function (data) {
+                console.log(data)
+                if (data == "") {
+                    var html = "&nbsp;&nbsp;&nbsp;暂无提醒消息"
+                    $("#tab").append(html);
+                }
+                $("#tab").html("");
+                for (var i = 0; i < data.length; i++) {                 
+                    var html = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + data[i].Title + "<span class='time'>&nbsp;  &nbsp; &nbsp; " + data[i].F_CreatorTime + "</span>";
+                }
+                $("#tab").append(html);
+            }
+        })
+    }
+
+    //邮箱
+    //function IconOK5() {
+    //    $.modalOpen({
+    //        id: "Form",
+    //        title: "首页邮件",
+    //        url: "/ExampleManage/SendMail/Index",
+    //        width: "1200px",
+    //        height: "1300px",
+    //        btn: [],
+    //        success: function () {
+    //            $.reload();
+    //        }
+    //        //callBack: function (iframeId) {
+    //        //    top.frames[iframeId].submitForm();
+    //        //}
+    //    });
+    //}
+    var k = "k";
+    function IconOK5() {
+        window.location.href = "/ExampleManage/SendMail/Index?k="+k
+    }
+
+</script>
+<div class="lr-desktop-panel">
+    <div class="col-xs-12">
+        <div class="portal-panel-title">
+            <img src='~/Content/img/xxsd.gif' />
+            <span id="tab" style="font-size:10px;"></span>
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <div class="portal-panel-title">
+            <i class="fa fa-coffee"></i>&nbsp;&nbsp;待办任务（Top 5）
+        </div>
+        <div id="tab1" class="portal-panel-content" style="overflow: hidden; padding-top: 20px; padding-left: 30px; padding-right: 50px; height:220px;">
+            @*<div id="tab1" class="lr-msg-line">
+                    <a href="#" style="text-decoration: none;">[审批]&nbsp;&nbsp;&nbsp;老李的请假条</a><label>2016-05-25</label>
+                </div>*@
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <div class="portal-panel-title">
+            <i class="fa fa-bullhorn"></i>&nbsp;&nbsp;公告/通知（Top 5）
+        </div>
+        <div id="tab2" class="portal-panel-content" style="overflow: hidden; padding-top: 20px; padding-left: 30px; padding-right: 50px; height:220px;">
+
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <div class="portal-panel-title">
+            <i class="fa fa-bullhorn"></i>&nbsp;&nbsp;附件管理（Top 5）
+        </div>
+        <div id="tab3" class="portal-panel-content" style="overflow: hidden; padding-top: 20px; padding-left: 30px; padding-right: 50px; height:220px;">
+
+        </div>
+    </div>
+    <div class="col-xs-6">
+        <div class="portal-panel-title">
+            <i class="fa fa-bullhorn"></i>&nbsp;&nbsp;快捷方式
+        </div>
+        <div id="tab4" class="portal-panel-content" style="overflow: hidden; padding-top: 20px; padding-left: 30px; padding-right: 50px;">
+            <div style="width:50%">
+                <table style="width:50%">                 
+                    <tr>
+                        <td class="tbl" style="width:50px; height:80px; text-align:center" onclick="IconOK5()"><img src="~/Content/img/email.png" style="width:60px; height:60px;" /></td>
+                        <td width="10%">&nbsp;</td>
+                        <td class="tbl" style="width:50px; height:80px;  text-align:center"><a href="tencent://Message/?Uin=67083465&websiteName=q-zone.qq.com&Menu=yes"><img border="0" SRC="http://wpa.qq.com/pa?p=1:67083465:14" alt="点击这里给我发消息" style="width:60px;"></a></td>
+                        <td width="10%">&nbsp;</td>
+                    </tr>        
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

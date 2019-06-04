@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "主表详情";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<link href="~/Content/js/simditor/css/simditor.css" rel="stylesheet" />
+<script src="~/Content/js/simditor/js/module.min.js"></script>
+<script src="~/Content/js/simditor/js/hotkeys.min.js"></script>
+<script src="~/Content/js/simditor/js/simditor.min.js"></script>
+<style>
+    .simditor {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+</style>
+<script>
+    var keyValue = $.request("keyValue");
+    $(function () {
+
+     
+    })
+    //获取实体
+    $(function () {
+        $.ajax({
+            url: "/ExampleManage/MyRecord/GetVoidMyRecordEntity",
+            data: { keyValue: keyValue },
+            dataType: 'json',
+            async: false, //是否异步          
+            success: function (data) {
+                $("#L_Title").html(data.L_Title)
+                $("#L_Centent").html(data.L_Centent)
+                $("#F_EnabledMark").html(data.F_EnabledMark)
+                $("#CreateUserTime").html(data.CreateUserTime)
+                $("#CreateUserName").html(data.CreateUserName)
+            }
+        })
+    })
+</script>
+<div style="margin-top: 20px;padding-left:20px;padding-right:20px;">
+    <table class="form" style="table-layout: auto;">
+        <tr>
+            <td class="formTitle"><b>标题:</b></td>
+            <td class="formValue" style="text-align:center;">
+                <span id="L_Title"  style="font-size:20px; font-family:FangSong; color:#808080;"></span>
+            </td>
+        </tr>
+        <tr>
+            <th class="formTitle"><b>内容:</b></th>
+            <td class="formValue">
+                <span id="L_Centent" style="font-size:15px; font-family:'Microsoft YaHei UI'; color:#808080;"></span>
+            </td>
+        </tr>
+        <tr>
+            <th class="formTitle"></th>
+            <td class="formValue" style="text-align:right;">
+                <b style="color:#ff0000"><span id="CreateUserTime"></span></b>
+                <p></p>
+                <b style="color:#ff0000">By:<span id="CreateUserName"></span></b>
+            </td>
+        </tr>
+    </table>
+</div>

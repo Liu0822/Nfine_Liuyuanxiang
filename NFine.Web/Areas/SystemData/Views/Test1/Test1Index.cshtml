@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "";
+    Layout = "~/Views/Shared/_Index.cshtml";
+}
+    <div class="weather" pc style="background-color:#808080;">
+        <div id="tp-weather-widget"></div>
+        <script>(function (T, h, i, n, k, P, a, g, e) { g = function () { P = h.createElement(i); a = h.getElementsByTagName(i)[0]; P.src = k; P.charset = "utf-8"; P.async = 1; a.parentNode.insertBefore(P, a) }; T["ThinkPageWeatherWidgetObject"] = n; T[n] || (T[n] = function () { (T[n].q = T[n].q || []).push(arguments) }); T[n].l = +new Date(); if (T.attachEvent) { T.attachEvent("onload", g) } else { T.addEventListener("load", g, false) } }(window, document, "script", "tpwidget", "//widget.seniverse.com/widget/chameleon.js"))</script>
+        <script>
+            tpwidget("init", {
+                "flavor": "slim",
+                "location": "WX4FBXXFKE4F",
+                "geolocation": "enabled",
+                "language": "zh-chs",
+                "unit": "c",
+                "theme": "chameleon",
+                "container": "tp-weather-widget",
+                "bubble": "disabled",
+                "alarmType": "badge",
+                "color": "#FFFFFF",
+                "uid": "U9EC08A15F",
+                "hash": "039da28f5581f4bcb5c799fb4cdfb673"
+            });
+            tpwidget("show");
+        </script>
+    </div>
+@*<a class="btn" id="makeBtn" onclick="makeBtn()" data-tipso="dowebok.com"><i class="fa fa-gear"></i></a>
+<script>
+    $("#makeBtn").tipso({
+        useTitle: false,
+        position: 'right'
+    });
+</script>*@
+
+<link href="~/Content/js/Wf/my.css" rel="stylesheet" />
+
+
+<div id="demo2" style="margin:10px; width:600px;"></div>
+<input id="submit" type="button" value='导出结果' onclick="Export()" />
+<textarea id="result" row="6" style="width:100%; height:300px;"></textarea>
+<script src="~/Content/js/Wf/my.js"></script>
+<script type="text/javascript">
+    var jsondata = {
+        "title": "业务审批流程",
+        "nodes":
+        {
+            "demo_node_1": { "name": "登记", "left": 20, "top": 59, "type": "start round", "width": 24, "height": 24 },
+            "demo_node_3": { "name": "分管领导批", "left": 335, "top": 57, "type": "task", "width": 109, "height": 40 },
+            "demo_node_6": { "name": "分件", "left": 73, "top": 60, "type": "fork", "width": 100, "height": 24 },
+            "demo_node_8": { "name": "XX科审批", "left": 172, "top": 95, "type": "task", "width": 100, "height": 24 },
+            "demo_node_9": { "name": "XX科审批", "left": 171, "top": 25, "type": "task", "width": 100, "height": 24 },
+            "demo_node_20": { "name": "局领导审批", "left": 333, "top": 184, "type": "task", "width": 111, "height": 49 },
+            "demo_node_23": { "name": "打证发件", "left": 172, "top": 198, "type": "task", "width": 100, "height": 24 },
+            "demo_node_25": { "name": "归档", "left": 17, "top": 198, "type": "end round", "width": 24, "height": 24 }
+        },
+        "lines":
+        {
+            "demo_line_7": { "type": "sl", "from": "demo_node_1", "to": "demo_node_6", "name": "", "alt": true },
+            "demo_line_10": { "type": "lr", "M": 121, "from": "demo_node_6", "to": "demo_node_8", "name": "" },
+            "demo_line_11": { "type": "lr", "M": 122, "from": "demo_node_6", "to": "demo_node_9", "name": "" },
+            "demo_line_12": { "type": "lr", "M": 312.5, "from": "demo_node_8", "to": "demo_node_3", "name": "" },
+            "demo_line_13": { "type": "lr", "M": 312.5, "from": "demo_node_9", "to": "demo_node_3", "name": "" },
+            "demo_line_21": { "type": "sl", "from": "demo_node_3", "to": "demo_node_20", "name": "" },
+            "demo_line_24": { "type": "sl", "from": "demo_node_20", "to": "demo_node_23", "name": "" },
+            "demo_line_26": { "type": "sl", "from": "demo_node_23", "to": "demo_node_25", "name": "" }
+        }, "areas": {}, "initNum": 28
+    };
+    var property = {
+        headLabel: true,
+        initLabelText: "审批流程",
+        width: 500,
+        height: 300,
+        toolBtns: ["start round", "end round", "task", "fork", "join"],
+        haveHead: true,
+        headBtns: ["save", "undo", "redo", "reload"],//如果haveHead=true，则定义HEAD区的按钮
+        haveTool: true,
+        haveGroup: true,
+        useOperStack: true
+    };
+    var remark = {
+        cursor: "选择指针",
+        direct: "结点连线",
+        start: "入口结点",
+        "end": "结束结点",
+        "task": "任务结点",
+        fork: "分支结点",
+        "join": "联合结点",
+        group: "组织划分框编辑开关"
+    };
+    var demo;
+    $(document).ready(function () {
+        demo = $.createGooFlow($("#demo2"), property);
+        demo.setNodeRemarks(remark);
+        demo.loadData(jsondata);
+    });
+    var out;
+    function Export() {
+        document.getElementById("result").value = JSON.stringify(demo.exportData());
+    }
+</script>
+
+
+
+

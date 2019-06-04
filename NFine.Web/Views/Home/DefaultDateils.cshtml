@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "DefaultDateils";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+@*<link href="~/Content/js/simditor/css/simditor.css" rel="stylesheet" />
+<script src="~/Content/js/simditor/js/module.min.js"></script>
+<script src="~/Content/js/simditor/js/hotkeys.min.js"></script>
+<script src="~/Content/js/simditor/js/simditor.min.js"></script>*@
+@*<style>
+    .simditor {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+</style>*@
+<script>
+    var keyValue = $.request("keyValue");
+       // var editor;    
+        //获取实体
+        $(function () {
+            $.ajax({
+                url: "/ExampleManage/MyRecord/GetVoidMyRecordEntity",
+                data: { keyValue: keyValue },
+                dataType: 'json',           
+                success: function (data) {                
+                    $("#L_Title").html(data.L_Title)
+                    $("#L_Centent").html(data.L_Centent)                 
+                }
+            })
+        })
+    </script>
+
+<div style="margin-top: 20px;padding-left:20px;padding-right:20px;">
+    <table class="form" style="table-layout: auto;">
+        <tr>
+            <td class="formValue" style="border-bottom: 1px solid #e7e7eb;padding-bottom: 10px;margin-bottom: 14px;">
+                <div style="margin:0 auto;">
+                    <a id="L_Title" class="L_Title"></a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="formValue" colspan="3">
+                <div id="L_Centent" style="margin-top:10px;"></div>
+            </td>
+        </tr>
+    </table>
+</div>
+

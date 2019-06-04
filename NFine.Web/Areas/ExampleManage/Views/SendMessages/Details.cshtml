@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = " 从表Details";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<script>
+    var keyValue = $.request("keyValue"); 
+    var isDeltail = $.request("isDeltail");  //查看详情
+    var editor;
+    //页面初始化 同事将状态修改为已读
+    $(function () {
+        //传isDeltail的详情
+        if (isDeltail == "true") {
+            $.ajax({
+                url: "/ExampleManage/SendMessages/ChangeState",
+                data: { keyValue: keyValue },
+                dataType: 'json',
+                success: function (data) {                  
+                }
+            })
+        }
+    })
+    //正常详情页面
+    $(function () {
+        $.ajax({
+            url: "/ExampleManage/SendMessages/GetFormJson",
+            data: { keyValue: keyValue },
+            dataType: 'json',
+            success: function (data) {
+                $("#L_Title").html(data.L_Title)
+                $("#L_Centent").html(data.L_Centent)
+                $("#F_EnabledMark").html(data.F_EnabledMark)
+                $("#CreateUserTime").html(data.CreateUserTime)
+                $("#CreateUserName").html(data.CreateUserName)
+            }
+        })
+    })
+</script>
+<div style="margin-top: 20px;padding-left:20px;padding-right:20px;">
+    <table class="form" style="table-layout: auto;">
+        <tr>
+            <td class="formTitle"><b>标题:</b></td>
+            <td class="formValue" style="text-align:center;">
+                <span id="L_Title"  style="font-size:20px; font-family:FangSong; color:#808080;"></span>
+            </td>
+        </tr>
+        <tr>
+            <th class="formTitle"><b>内容:</b></th>
+            <td class="formValue">
+                <span id="L_Centent" style="font-size:15px; font-family:'Microsoft YaHei UI'; color:#808080;"></span>
+            </td>
+        </tr>
+        <tr>
+            <th class="formTitle"></th>
+            <td class="formValue" style="text-align:right;">
+                <b style="color:#ff0000"><span id="CreateUserTime"></span></b>
+                <p></p>
+                <b style="color:#ff0000">By:<span id="CreateUserName"></span></b>
+            </td>
+        </tr>
+    </table>
+</div>
